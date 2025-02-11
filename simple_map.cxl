@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Untitled 1</dc:title>
+        <dc:creator>
+            <vcard:FN>Isaac Sussman</vcard:FN>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>Isaac Sussman</vcard:FN>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>Isaac Sussman</vcard:FN>
+        </dcterms:rightsHolder>
+        <dcterms:created>2024-08-08T23:38:58-04:00</dcterms:created>
+        <dcterms:modified>2024-08-23T13:09:17-04:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:extent>4118 bytes</dc:extent>
+        <dc:source>cmap:20MLHTFGP-8CS0DK-1:20MLHTH6Y-1NPXLGR-Z:20MLHX2V8-1SL23GM-P6</dc:source>
+    </res-meta>
+    <map width="252" height="133">
+        <concept-list>
+            <concept id="20P0GB7DZ-SRPTD6-4GL" label="Concept 3"/>
+            <concept id="20MLHXHKY-29DZJ7M-VL" label="Concept 2"/>
+            <concept id="20MLHX8XK-LWR3WK-PR" label="Concept 1"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="20P0GB9L2-WYJ5P5-4GV" label="Dual"/>
+            <linking-phrase id="20MLHXRQB-1RYFJL-W7" label="Link"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="20MLHXRQD-1QJSRJF-WK" from-id="20MLHXRQB-1RYFJL-W7" to-id="20MLHXHKY-29DZJ7M-VL"/>
+            <connection id="20P0GB9L2-5RQ4RF-4GY" isBidirectional="true" from-id="20P0GB7DZ-SRPTD6-4GL" to-id="20P0GB9L2-WYJ5P5-4GV"/>
+            <connection id="20P0GB9L2-G267T8-4H4" isBidirectional="true" from-id="20P0GB9L2-WYJ5P5-4GV" to-id="20MLHXHKY-29DZJ7M-VL"/>
+            <connection id="20MLHXRQC-7MJ4VD-WC" from-id="20MLHX8XK-LWR3WK-PR" to-id="20MLHXRQB-1RYFJL-W7"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="20P0GB7DZ-SRPTD6-4GL" x="792" y="366" width="85" height="34" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="20MLHXHKY-29DZJ7M-VL" x="930" y="462" width="85" height="34"/>
+            <concept-appearance id="20MLHX8XK-LWR3WK-PR" x="765" y="459" width="85" height="34"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="20P0GB9L2-WYJ5P5-4GV" x="861" y="414" width="28" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="20MLHXRQB-1RYFJL-W7" x="847" y="460" width="27" height="11"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="20MLHXRQD-1QJSRJF-WK" from-pos="center" to-pos="center" type="straight"/>
+            <connection-appearance id="20P0GB9L2-5RQ4RF-4GY" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="bezier-3pt" arrowhead="if-to-concept">
+                <control-point x="826" y="390"/>
+            </connection-appearance>
+            <connection-appearance id="20P0GB9L2-G267T8-4H4" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="bezier-3pt" arrowhead="if-to-concept">
+                <control-point x="895" y="438"/>
+            </connection-appearance>
+            <connection-appearance id="20MLHXRQC-7MJ4VD-WC" from-pos="center" to-pos="center" type="straight"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="13,13,11,255" image-style="not-drawn" image-top-left="0,0"/>
+                <concept-style font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" background-image-style="full" border-color="79,78,10,255" border-style="solid"
+                    border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255" border-style="solid" border-thickness="2"
+                    border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="20MLHX2V8-1SL23GM-P6">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

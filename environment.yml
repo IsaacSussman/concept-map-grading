@@ -1,0 +1,8 @@
+name: concept-map-grading
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - defusedxml
+  - networkx
