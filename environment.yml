@@ -6,3 +6,4 @@ dependencies:
   - numpy
   - defusedxml
   - networkx
+  - matplotlib

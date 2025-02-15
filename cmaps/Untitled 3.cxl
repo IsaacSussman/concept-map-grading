@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Untitled 2</dc:title>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:216VL17P1-1G5CM1B-1:216VL1FWV-PH5SLX-Z:216VL5P8J-ZQ5D57-Z5</dc:source>
+    </res-meta>
+    <map width="117" height="117">
+        <concept-list>
+            <concept id="216VL5S7X-RB13WQ-10W" label="????"/>
+            <concept id="216VL5VFY-17VGQ73-116" label="????"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="216VL6272-JY0K93-126" label="????"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="216VL6275-M1XRQR-129" from-id="216VL5S7X-RB13WQ-10W" to-id="216VL6272-JY0K93-126"/>
+            <connection id="216VL6276-1ZMTG8Q-12G" from-id="216VL6272-JY0K93-126" to-id="216VL5VFY-17VGQ73-116"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="216VL5S7X-RB13WQ-10W" x="240" y="264" width="42" height="25"/>
+            <concept-appearance id="216VL5VFY-17VGQ73-116" x="312" y="253" width="42" height="25"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="216VL6272-JY0K93-126" x="248" y="167" width="28" height="11"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="216VL6275-M1XRQR-129" from-pos="center" to-pos="center"/>
+            <connection-appearance id="216VL6276-1ZMTG8Q-12G" from-pos="center" to-pos="top-right"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="216VL5P8J-ZQ5D57-Z5">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

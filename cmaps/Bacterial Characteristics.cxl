@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Bacterial Characteristics</dc:title>
+        <dc:creator>
+            <vcard:FN>Kcho</vcard:FN>
+        </dc:creator>
+        <dcterms:rightsHolder>
+            <vcard:FN>Kcho</vcard:FN>
+        </dcterms:rightsHolder>
+        <dcterms:created>2013-10-29T12:26:47-02:00</dcterms:created>
+        <dcterms:modified>2013-10-11T10:52:39-03:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 5.05.01</dc:publisher>
+        <dc:extent>32395 bytes</dc:extent>
+        <dc:source>cmap:1LTV5G9W4-2181Q04-1:1LTV5GDMP-TFQR0-Y:1M8CD2885-1306PVY-27Y</dc:source>
+    </res-meta>
+    <map width="2406" height="1485" default-stylesheet-id="1140541030046_1387186329_1033">
+        <concept-list>
+            <concept id="1140541260703_1117565163_1295" label="blue/green"/>
+            <concept id="1140540771328_1546356298_838" label="not aggregated"/>
+            <concept id="1140541065718_1217107995_1075" label="Gram -"/>
+            <concept id="1140542708437_1087584085_2277" label="stabilize the&#xa;flagellum"/>
+            <concept id="1140541451734_1302110031_1483" label="lateral"/>
+            <concept id="1140540461484_1359453034_572" label="spherical&#xa;(coccus)"/>
+            <concept id="1140541095812_1423799284_1117" label="purple"/>
+            <concept id="1140568080234_826133154_800" label="Pilin"/>
+            <concept id="1140540593531_1458204003_756" label="tetrads"/>
+            <concept id="1140635033312_1485681167_811" label="pink"/>
+            <concept id="1140636828609_1395928297_2114" label="cell wall"/>
+            <concept id="1140567612125_600427877_675" label="lophotrichous"/>
+            <concept id="1140541655062_240593184_1659" label="all areas"/>
+            <concept id="1140546183671_201221729_4703" label="antigenic"/>
+            <concept id="1140545326765_162543730_4141" label="adhesion to&#xa;surfaces"/>
+            <concept id="1140541599718_794583330_1565" label="both sides"/>
+            <concept id="1140541422640_1848758375_1452" label="polar"/>
+            <concept id="1140570062171_414103847_2100" label="Outer Membrane"/>
+            <concept id="1140542402187_1823674163_1962" label="basal body"/>
+            <concept id="1140541362359_953831521_1393" label="can't see"/>
+            <concept id="1140540538187_2109588844_683" label="pairs&#xa;(diplococci)"/>
+            <concept id="1140541674812_1738611816_1690" label="peritrichous"/>
+            <concept id="1140634807140_2042189893_633" label="Mycoplasma"/>
+            <concept id="1140545655203_141355981_4348" label="porins"/>
+            <concept id="1140635231312_1385562584_922" label="arabinogalactan"/>
+            <concept id="1140546137953_699050600_4673" label="negatively&#xa;charged"/>
+            <concept id="1140541328375_1283204561_1343" label="Fluorochrome"/>
+            <concept id="1140545494062_2135561197_4268" label="thick&#xa;peptidoglycan"/>
+            <concept id="1140636606937_1096774983_1912" label="Lipid A"/>
+            <concept id="1140545081109_1177382248_3966" label="Pilus"/>
+            <concept id="1140570285656_193503454_2209" label="Endotoxin"/>
+            <concept id="1140540643843_1353159145_774" label="not infectious"/>
+            <concept id="1140540119437_323080368_403" label="prokaryotes"/>
+            <concept id="1140635504640_1315192620_1129" label="Pencillin"/>
+            <concept id="1140635611500_385103450_1191" label="Lysozyme"/>
+            <concept id="1140542529968_1580708582_2074" label="helical&#xa;filament"/>
+            <concept id="1140540025750_1152504014_330" label="Bacteria"/>
+            <concept id="1140634957703_1275694912_746" label="unique&#xa;attachment&#xa;organelle"/>
+            <concept id="1140545669937_1829790349_4378" label="lipopolysaccharides"/>
+            <concept id="1140634898718_360569792_705" label="peptidoglycans"/>
+            <concept id="1140540513687_1341022852_664" label="square"/>
+            <concept id="1140542588812_2087040830_2164" label="S &amp; M"/>
+            <concept id="1140541210187_28932906_1234" label="Ziehl-Neelsen"/>
+            <concept id="1140542687875_494811353_2243" label="turn the&#xa;flagellum"
+                short-comment="S&amp;M are located in the plasma membrane. These are the innermost rings (always found) and comprise the motor apparatus. All Gram+ bacteria have S&amp;M rings only." long-comment=""/>
+            <concept id="1140540974187_1981016005_961" label="Gram +"/>
+            <concept id="1140545114734_472858656_3999" label="Fimbria"/>
+            <concept id="1140545191953_1145088066_4061" label="entry of&#xa;genetic material"/>
+            <concept id="1140542616984_1266961941_2196" label="L &amp; P"/>
+            <concept id="1140541116125_1109972859_1173" label="clear"/>
+            <concept id="1140542511828_505355559_2039" label="hooks"/>
+            <concept id="1140541637734_1016880454_1630" label="amphitrichous"/>
+            <concept id="1140540583000_106627839_732" label="clusters&#xa;(staphylococci)"/>
+            <concept id="1140541611640_290104039_1598" label="monotrichous"/>
+            <concept id="1140545565593_600963062_4300" label="lipotechoic&#xa;acid"/>
+            <concept id="1140543091578_1073948273_2492" label="rod"/>
+            <concept id="1140635252750_2053291566_942" label="thick &amp; waxy"/>
+            <concept id="1140542747109_286094624_2320" label="rings"/>
+            <concept id="1140636889375_2078585376_2174" label="fever"/>
+            <concept id="1140540502546_1005919471_646" label="curved&#xa;(vibrio)"/>
+            <concept id="1140545485656_481421769_4241" label="thin&#xa;peptidoglycan"/>
+            <concept id="1140541340296_1477740796_1362" label="brownish"/>
+            <concept id="1140636660906_815617377_1952" label="core polysaccharide"/>
+            <concept id="1140570478218_604662559_2269" label="thin peptidoglycan"/>
+            <concept id="1140541395640_423031098_1421" label="flagella"/>
+            <concept id="1140541585109_1728979065_1536" label="one side"/>
+            <concept id="1140540572734_1877937798_714" label="chains&#xa;(streptococci)"/>
+            <concept id="1140636909406_1819533280_2204" label="hemorrhagic&#xa;reactions"/>
+            <concept id="1140636776375_401398327_2080" label="O-antigen"/>
+            <concept id="1140541105687_363106779_1145" label="red"/>
+            <concept id="1140541237468_1303709278_1264" label="red"/>
+            <concept id="1140541075093_71248338_1094" label="Gram resistant"/>
+            <concept id="1140540487656_277713092_601" label="rod&#xa;(bacilli)" short-comment="Can be short &amp; fat (coccobacillus), thin &amp; long, or drumstick shaped" long-comment=""/>
+            <concept id="1140541183828_427162264_1203" label="Acid Fast Stain"/>
+            <concept id="1140636849187_504259998_2144" label="classify&#xa;bacteria"/>
+            <concept id="1140540232734_1563471857_515" label="0.2&#x3bc;m-10&#x3bc;m"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1140636606937_292611786_1915" label="consists of"/>
+            <linking-phrase id="1140541260703_663053889_1298" label="negative&#xa;looks"/>
+            <linking-phrase id="1140541340296_829716026_1365" label="positive&#xa;looks"/>
+            <linking-phrase id="1140635252750_1307893061_945" label="which is"/>
+            <linking-phrase id="1140634898734_137217846_708" label="do not have"/>
+            <linking-phrase id="1140567612125_2089046802_678" label="many"/>
+            <linking-phrase id="1140541105703_1475143906_1148" label="stain color&#xa;is"/>
+            <linking-phrase id="1140635289500_16030588_977" label="which is&#xa;why it is"/>
+            <linking-phrase id="1140635033312_424747705_814" label="Gram stain is"/>
+            <linking-phrase id="1140568080234_413971505_803" label="consists&#xa;of"/>
+            <linking-phrase id="1140541210187_46320807_1237" label="using"/>
+            <linking-phrase id="1140634957703_1130060486_749" label="have"/>
+            <linking-phrase id="1140635534687_1470735002_1142" label="prevents&#xa;formation of"/>
+            <linking-phrase id="1140634807140_1803796953_636" label="can be"/>
+            <linking-phrase id="1140541637734_692244560_1633" label="are called"/>
+            <linking-phrase id="1140542588812_132336017_2167" label="always has"/>
+            <linking-phrase id="1140541674812_1010681581_1693" label="are called"/>
+            <linking-phrase id="1140541362375_1831740034_1396" label="negative&#xa;looks"/>
+            <linking-phrase id="1140541585109_1169081095_1539" label="found on"/>
+            <linking-phrase id="1140542747109_2050731613_2323" label="consists of"/>
+            <linking-phrase id="1140540119437_1119774175_406" label="are all"/>
+            <linking-phrase id="1140540643859_1315893189_777" label="are"/>
+            <linking-phrase id="1140545356406_1690013456_4169" label="are mainly"/>
+            <linking-phrase id="1140541095812_1727353434_1120" label="stain color&#xa;is"/>
+            <linking-phrase id="1140542529984_868764907_2077" label="attached to"/>
+            <linking-phrase id="1140542402187_1318710905_1965" label="composed of"/>
+            <linking-phrase id="1140635892218_793382517_1359" label="partly removes&#xa;cell wall&#xa;(spheroplast)"/>
+            <linking-phrase id="1140540974187_77887735_964" label="can Gram stain"/>
+            <linking-phrase id="1140541183828_646426251_1206" label="can stain"/>
+            <linking-phrase id="1140570213437_1686639575_2139" label="attached by&#xa;Braun Proteins to"/>
+            <linking-phrase id="1140636828625_219757103_2117" label="bound to"/>
+            <linking-phrase id="1140570478218_882567928_2272" label="generally&#xa;have"/>
+            <linking-phrase id="1140542511828_1624753043_2042" label="attached to"/>
+            <linking-phrase id="1140541237468_1314490271_1267" label="positive&#xa;looks"/>
+            <linking-phrase id="1140541655062_1043004708_1662" label="found on"/>
+            <linking-phrase id="1140636737812_490244952_2055" label="bound to"/>
+            <linking-phrase id="1140636849187_1157390505_2147" label="can be used to"/>
+            <linking-phrase id="1140636776375_1722680951_2083" label="has"/>
+            <linking-phrase id="1140544595234_1792505205_3762" label="are all"/>
+            <linking-phrase id="1140636715671_908182928_2024" label="which is"/>
+            <linking-phrase id="1140545494062_1625439383_4271" label="cell wall is"/>
+            <linking-phrase id="1140541422640_536772443_1455" label="can be"/>
+            <linking-phrase id="1140546137953_49427210_4676" label="is"/>
+            <linking-phrase id="1140542687875_749320891_2246" label="which serve to"/>
+            <linking-phrase id="1140545326765_636538961_4144" label="aids in"/>
+            <linking-phrase id="1140545239593_1627955838_4096" label="are all"/>
+            <linking-phrase id="1140540461484_406729875_575" label="can be&#xa;of shape"/>
+            <linking-phrase id="1140540771328_1099118350_841" label="are"/>
+            <linking-phrase id="1140542708437_1861946996_2280" label="which serve to"/>
+            <linking-phrase id="1140636889375_875606172_2177" label="which can cause"/>
+            <linking-phrase id="1140635870031_2000363598_1333" label="completely removes&#xa;cell wall&#xa;(protoplast)"/>
+            <linking-phrase id="1140541611640_73766093_1601" label="single"/>
+            <linking-phrase id="1140545485656_1620726828_4244" label="cell wall&#xa;consists of"/>
+            <linking-phrase id="1140545191953_365430824_4064" label="aids in"/>
+            <linking-phrase id="1140542809718_1197597090_2369" label="sometimes has"/>
+            <linking-phrase id="1140570246218_646992247_2169" label="contains"/>
+            <linking-phrase id="1140540538187_422150816_686" label="can aggregate&#xa;in"/>
+            <linking-phrase id="1140541395640_1415705693_1424" label="can have"/>
+            <linking-phrase id="1140541116125_935002739_1176" label="normally is"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1140541655062_536891169_1665" from-id="1140541451734_1302110031_1483" to-id="1140541655062_1043004708_1662"/>
+            <connection id="1140635892218_200636068_1362" from-id="1140635611500_385103450_1191" to-id="1140635892218_793382517_1359"/>
+            <connection id="1140541210187_1610215040_1240" from-id="1140541183828_427162264_1203" to-id="1140541210187_46320807_1237"/>
+            <connection id="1140570478218_1320808667_2280" from-id="1140570478218_882567928_2272" to-id="1140570478218_604662559_2269"/>
+            <connection id="1140544595234_174072880_3770" from-id="1140544595234_1792505205_3762" to-id="1140541065718_1217107995_1075"/>
+            <connection id="1140540119453_772956007_416" from-id="1140540119437_1119774175_406" to-id="1140540119437_323080368_403"/>
+            <connection id="1140540572734_1566300163_717" from-id="1140540538187_422150816_686" to-id="1140540572734_1877937798_714"/>
+            <connection id="1140541611640_469929632_1610" from-id="1140541611640_73766093_1601" to-id="1140541611640_290104039_1598"/>
+            <connection id="1140635033312_1381842790_822" from-id="1140635033312_424747705_814" to-id="1140635033312_1485681167_811"/>
+            <connection id="1140635892218_1478513579_1367" from-id="1140635892218_793382517_1359" to-id="1140541065718_1217107995_1075"/>
+            <connection id="1140635252750_1509834749_954" from-id="1140635252750_1307893061_945" to-id="1140635252750_2053291566_942"/>
+            <connection id="1140542529984_1870961651_2080" from-id="1140542511828_505355559_2039" to-id="1140542529984_868764907_2077"/>
+            <connection id="1140541237468_30129973_1276" from-id="1140541237468_1314490271_1267" to-id="1140541237468_1303709278_1264"/>
+            <connection id="1140540643859_603033846_780" from-id="1140540513687_1341022852_664" to-id="1140540643859_1315893189_777"/>
+            <connection id="1140541422640_794904482_1464" from-id="1140541422640_536772443_1455" to-id="1140541422640_1848758375_1452"/>
+            <connection id="1140636606953_1900237371_1923" from-id="1140636606937_292611786_1915" to-id="1140636606937_1096774983_1912"/>
+            <connection id="1140570213437_1665185968_2148" from-id="1140570213437_1686639575_2139" to-id="1140545485656_481421769_4241"/>
+            <connection id="1140546183671_1831867462_4706" from-id="1140546137953_49427210_4676" to-id="1140546183671_201221729_4703"/>
+            <connection id="1140636889375_770702565_2180" from-id="1140570285656_193503454_2209" to-id="1140636889375_875606172_2177"/>
+            <connection id="1140541237468_1023894614_1270" from-id="1140541210187_28932906_1234" to-id="1140541237468_1314490271_1267"/>
+            <connection id="1140541116125_2000094893_1179" from-id="1140541075093_71248338_1094" to-id="1140541116125_935002739_1176"/>
+            <connection id="1140636849187_5284142_2150" from-id="1140636776375_401398327_2080" to-id="1140636849187_1157390505_2147"/>
+            <connection id="1140636909406_1082373031_2207" from-id="1140636889375_875606172_2177" to-id="1140636909406_1819533280_2204"/>
+            <connection id="1140545326765_541857263_4153" from-id="1140545326765_636538961_4144" to-id="1140545326765_162543730_4141"/>
+            <connection id="1140542588812_1619743392_2175" from-id="1140542588812_132336017_2167" to-id="1140542588812_2087040830_2164"/>
+            <connection id="1140541095812_379291414_1129" from-id="1140541095812_1727353434_1120" to-id="1140541095812_1423799284_1117"/>
+            <connection id="1140540502546_327727755_649" from-id="1140540461484_406729875_575" to-id="1140540502546_1005919471_646"/>
+            <connection id="1140635534687_1615813384_1151" from-id="1140635534687_1470735002_1142" to-id="1140545494062_2135561197_4268"/>
+            <connection id="1140545485656_1020762502_4252" from-id="1140545485656_1620726828_4244" to-id="1140545485656_481421769_4241"/>
+            <connection id="1140545356406_2059903136_4177" from-id="1140545356406_1690013456_4169" to-id="1140541065718_1217107995_1075"/>
+            <connection id="1140545494062_1140423685_4274" from-id="1140540974187_1981016005_961" to-id="1140545494062_1625439383_4271"/>
+            <connection id="1140636889375_419273429_2186" from-id="1140636889375_875606172_2177" to-id="1140636889375_2078585376_2174"/>
+            <connection id="1140545191953_1272101925_4067" from-id="1140545081109_1177382248_3966" to-id="1140545191953_365430824_4064"/>
+            <connection id="1140636715671_1773458967_2032" from-id="1140636715671_908182928_2024" to-id="1140570285656_193503454_2209"/>
+            <connection id="1140541422640_430992377_1458" from-id="1140541395640_423031098_1421" to-id="1140541422640_536772443_1455"/>
+            <connection id="1140636606937_1294229768_1918" from-id="1140545669937_1829790349_4378" to-id="1140636606937_292611786_1915"/>
+            <connection id="1140541116125_1271713700_1185" from-id="1140541116125_935002739_1176" to-id="1140541116125_1109972859_1173"/>
+            <connection id="1140540119453_443703287_410" from-id="1140540025750_1152504014_330" to-id="1140540119437_1119774175_406"/>
+            <connection id="1140570246218_508977694_2172" from-id="1140570062171_414103847_2100" to-id="1140570246218_646992247_2169"/>
+            <connection id="1140634957703_66406185_752" from-id="1140634807140_2042189893_633" to-id="1140634957703_1130060486_749"/>
+            <connection id="1140636660906_1686818017_1955" from-id="1140636606937_292611786_1915" to-id="1140636660906_815617377_1952"/>
+            <connection id="1140636828625_749249134_2126" from-id="1140636828625_219757103_2117" to-id="1140636828609_1395928297_2114"/>
+            <connection id="1140545494062_1662042232_4279" from-id="1140545494062_1625439383_4271" to-id="1140545494062_2135561197_4268"/>
+            <connection id="1140541183828_986655232_1209" from-id="1140541075093_71248338_1094" to-id="1140541183828_646426251_1206"/>
+            <connection id="1140567612125_2119432425_681" from-id="1140541585109_1728979065_1536" to-id="1140567612125_2089046802_678"/>
+            <connection id="1140540487656_347934710_604" from-id="1140540461484_406729875_575" to-id="1140540487656_277713092_601"/>
+            <connection id="1140636776375_1592560420_2086" from-id="1140636660906_815617377_1952" to-id="1140636776375_1722680951_2083"/>
+            <connection id="1140634807140_582272927_639" from-id="1140541075093_71248338_1094" to-id="1140634807140_1803796953_636"/>
+            <connection id="1140546137953_917091937_4685" from-id="1140546137953_49427210_4676" to-id="1140546137953_699050600_4673"/>
+            <connection id="1140540461484_1965633161_578" from-id="1140540025750_1152504014_330" to-id="1140540461484_406729875_575"/>
+            <connection id="1140635549875_1012110098_1168" from-id="1140635534687_1470735002_1142" to-id="1140545485656_481421769_4241"/>
+            <connection id="1140542529984_126778924_2086" from-id="1140542529984_868764907_2077" to-id="1140542529968_1580708582_2074"/>
+            <connection id="1140540771328_188206778_844" from-id="1140540487656_277713092_601" to-id="1140540771328_1099118350_841"/>
+            <connection id="1140540974187_1228765711_967" from-id="1140540025750_1152504014_330" to-id="1140540974187_77887735_964"/>
+            <connection id="1140540538187_431133870_689" from-id="1140540461484_1359453034_572" to-id="1140540538187_422150816_686"/>
+            <connection id="1140545239593_1407893500_4104" from-id="1140545239593_1627955838_4096" to-id="1140541065718_1217107995_1075"/>
+            <connection id="1140541395640_1154160612_1432" from-id="1140541395640_1415705693_1424" to-id="1140541395640_423031098_1421"/>
+            <connection id="1140545114734_771180274_4002" from-id="1140541395640_1415705693_1424" to-id="1140545114734_472858656_3999"/>
+            <connection id="1140540771328_848940609_850" from-id="1140540771328_1099118350_841" to-id="1140540771328_1546356298_838"/>
+            <connection id="1140570246218_656738725_2177" from-id="1140570246218_646992247_2169" to-id="1140545655203_141355981_4348"/>
+            <connection id="1140542708437_1485284806_2283" from-id="1140542616984_1266961941_2196" to-id="1140542708437_1861946996_2280"/>
+            <connection id="1140542747109_1522074115_2326" from-id="1140542402187_1823674163_1962" to-id="1140542747109_2050731613_2323"/>
+            <connection id="1140542687875_65936233_2255" from-id="1140542687875_749320891_2246" to-id="1140542687875_494811353_2243"/>
+            <connection id="1140541095812_891522953_1123" from-id="1140540974187_1981016005_961" to-id="1140541095812_1727353434_1120"/>
+            <connection id="1140546137953_1006135190_4679" from-id="1140545565593_600963062_4300" to-id="1140546137953_49427210_4676"/>
+            <connection id="1140542809718_548963407_2372" from-id="1140542747109_286094624_2320" to-id="1140542809718_1197597090_2369"/>
+            <connection id="1140634957703_1181674776_757" from-id="1140634957703_1130060486_749" to-id="1140634957703_1275694912_746"/>
+            <connection id="1140541183828_375319142_1214" from-id="1140541183828_646426251_1206" to-id="1140541183828_427162264_1203"/>
+            <connection id="1140541210187_1665553280_1246" from-id="1140541210187_46320807_1237" to-id="1140541210187_28932906_1234"/>
+            <connection id="1140568080234_1784818859_806" from-id="1140545081109_1177382248_3966" to-id="1140568080234_413971505_803"/>
+            <connection id="1140541340296_969121032_1374" from-id="1140541340296_829716026_1365" to-id="1140541340296_1477740796_1362"/>
+            <connection id="1140541655062_1437394987_1671" from-id="1140541655062_1043004708_1662" to-id="1140541655062_240593184_1659"/>
+            <connection id="1140541105703_1632169337_1157" from-id="1140541105703_1475143906_1148" to-id="1140541105687_363106779_1145"/>
+            <connection id="1140636849187_1144286288_2155" from-id="1140636849187_1157390505_2147" to-id="1140636849187_504259998_2144"/>
+            <connection id="1140543091578_1567292794_2495" from-id="1140542747109_2050731613_2323" to-id="1140543091578_1073948273_2492"/>
+            <connection id="1140542799859_102133560_2348" from-id="1140542747109_286094624_2320" to-id="1140542588812_132336017_2167"/>
+            <connection id="1140541105703_954951101_1151" from-id="1140541065718_1217107995_1075" to-id="1140541105703_1475143906_1148"/>
+            <connection id="1140634898734_168246614_716" from-id="1140634898734_137217846_708" to-id="1140634898718_360569792_705"/>
+            <connection id="1140541585109_629602770_1548" from-id="1140541585109_1169081095_1539" to-id="1140541585109_1728979065_1536"/>
+            <connection id="1140570254875_804509681_2194" from-id="1140570246218_646992247_2169" to-id="1140545669937_1829790349_4378"/>
+            <connection id="1140635870031_1660162420_1336" from-id="1140635611500_385103450_1191" to-id="1140635870031_2000363598_1333"/>
+            <connection id="1140541260703_1933596334_1301" from-id="1140541210187_28932906_1234" to-id="1140541260703_663053889_1298"/>
+            <connection id="1140540232750_874110070_518" from-id="1140540119437_1119774175_406" to-id="1140540232734_1563471857_515"/>
+            <connection id="1140541362375_1746409082_1404" from-id="1140541362375_1831740034_1396" to-id="1140541362359_953831521_1393"/>
+            <connection id="1140636737812_6094250_2058" from-id="1140636606937_1096774983_1912" to-id="1140636737812_490244952_2055"/>
+            <connection id="1140542809718_1561332385_2377" from-id="1140542809718_1197597090_2369" to-id="1140542616984_1266961941_2196"/>
+            <connection id="1140541674812_991440575_1696" from-id="1140541655062_240593184_1659" to-id="1140541674812_1010681581_1693"/>
+            <connection id="1140635033312_1212792144_817" from-id="1140634807140_2042189893_633" to-id="1140635033312_424747705_814"/>
+            <connection id="1140570062171_1747017339_2103" from-id="1140545485656_1620726828_4244" to-id="1140570062171_414103847_2100"/>
+            <connection id="1140570478218_980221225_2275" from-id="1140541183828_427162264_1203" to-id="1140570478218_882567928_2272"/>
+            <connection id="1140636828625_1510289656_2120" from-id="1140636776375_401398327_2080" to-id="1140636828625_219757103_2117"/>
+            <connection id="1140540974187_2128313702_972" from-id="1140540974187_77887735_964" to-id="1140540974187_1981016005_961"/>
+            <connection id="1140541395640_1384862179_1427" from-id="1140540025750_1152504014_330" to-id="1140541395640_1415705693_1424"/>
+            <connection id="1140541065718_1833557988_1078" from-id="1140540974187_77887735_964" to-id="1140541065718_1217107995_1075"/>
+            <connection id="1140542747109_1678030404_2331" from-id="1140542747109_2050731613_2323" to-id="1140542747109_286094624_2320"/>
+            <connection id="1140540538187_434776346_695" from-id="1140540538187_422150816_686" to-id="1140540538187_2109588844_683"/>
+            <connection id="1140541611640_1966118339_1604" from-id="1140541585109_1728979065_1536" to-id="1140541611640_73766093_1601"/>
+            <connection id="1140541585109_601067097_1542" from-id="1140541422640_1848758375_1452" to-id="1140541585109_1169081095_1539"/>
+            <connection id="1140544595234_1066514209_3765" from-id="1140542616984_1266961941_2196" to-id="1140544595234_1792505205_3762"/>
+            <connection id="1140545565593_1541744223_4303" from-id="1140545494062_1625439383_4271" to-id="1140545565593_600963062_4300"/>
+            <connection id="1140545356406_10251884_4172" from-id="1140545114734_472858656_3999" to-id="1140545356406_1690013456_4169"/>
+            <connection id="1140541637734_974945656_1636" from-id="1140541599718_794583330_1565" to-id="1140541637734_692244560_1633"/>
+            <connection id="1140541340296_84073224_1368" from-id="1140541328375_1283204561_1343" to-id="1140541340296_829716026_1365"/>
+            <connection id="1140541075093_817273389_1097" from-id="1140540974187_77887735_964" to-id="1140541075093_71248338_1094"/>
+            <connection id="1140634898734_1398022689_711" from-id="1140634807140_2042189893_633" to-id="1140634898734_137217846_708"/>
+            <connection id="1140634807156_69789650_644" from-id="1140634807140_1803796953_636" to-id="1140634807140_2042189893_633"/>
+            <connection id="1140540593531_1415815981_759" from-id="1140540538187_422150816_686" to-id="1140540593531_1458204003_756"/>
+            <connection id="1140636776375_1423865477_2092" from-id="1140636776375_1722680951_2083" to-id="1140636776375_401398327_2080"/>
+            <connection id="1140542511828_140021990_2045" from-id="1140542402187_1823674163_1962" to-id="1140542511828_1624753043_2042"/>
+            <connection id="1140541260703_436533871_1306" from-id="1140541260703_663053889_1298" to-id="1140541260703_1117565163_1295"/>
+            <connection id="1140541637734_1413098597_1642" from-id="1140541637734_692244560_1633" to-id="1140541637734_1016880454_1630"/>
+            <connection id="1140635534687_1037678102_1145" from-id="1140635504640_1315192620_1129" to-id="1140635534687_1470735002_1142"/>
+            <connection id="1140541599734_918811763_1568" from-id="1140541585109_1169081095_1539" to-id="1140541599718_794583330_1565"/>
+            <connection id="1140542511828_1615032123_2051" from-id="1140542511828_1624753043_2042" to-id="1140542511828_505355559_2039"/>
+            <connection id="1140541451750_906071758_1486" from-id="1140541422640_536772443_1455" to-id="1140541451734_1302110031_1483"/>
+            <connection id="1140542402187_934179142_1973" from-id="1140542402187_1318710905_1965" to-id="1140542402187_1823674163_1962"/>
+            <connection id="1140635252750_671190771_948" from-id="1140635231312_1385562584_922" to-id="1140635252750_1307893061_945"/>
+            <connection id="1140635870031_1738007059_1341" from-id="1140635870031_2000363598_1333" to-id="1140540974187_1981016005_961"/>
+            <connection id="1140540643859_156360866_786" from-id="1140540643859_1315893189_777" to-id="1140540643843_1353159145_774"/>
+            <connection id="1140567612125_179513340_686" from-id="1140567612125_2089046802_678" to-id="1140567612125_600427877_675"/>
+            <connection id="1140545081109_1596939526_3969" from-id="1140541395640_1415705693_1424" to-id="1140545081109_1177382248_3966"/>
+            <connection id="1140636737812_1368398893_2063" from-id="1140636737812_490244952_2055" to-id="1140636660906_815617377_1952"/>
+            <connection id="1140545485656_2019818327_4247" from-id="1140541065718_1217107995_1075" to-id="1140545485656_1620726828_4244"/>
+            <connection id="1140541362375_404457527_1399" from-id="1140541328375_1283204561_1343" to-id="1140541362375_1831740034_1396"/>
+            <connection id="1140570213437_1692076030_2142" from-id="1140570062171_414103847_2100" to-id="1140570213437_1686639575_2139"/>
+            <connection id="1140541674812_128400891_1702" from-id="1140541674812_1010681581_1693" to-id="1140541674812_1738611816_1690"/>
+            <connection id="1140542687875_1650291204_2249" from-id="1140542588812_2087040830_2164" to-id="1140542687875_749320891_2246"/>
+            <connection id="1140540583000_1287163285_735" from-id="1140540538187_422150816_686" to-id="1140540583000_106627839_732"/>
+            <connection id="1140635289500_295612807_980" from-id="1140635252750_2053291566_942" to-id="1140635289500_16030588_977"/>
+            <connection id="1140541328375_2131585100_1346" from-id="1140541210187_46320807_1237" to-id="1140541328375_1283204561_1343"/>
+            <connection id="1140545326765_1424449143_4147" from-id="1140545114734_472858656_3999" to-id="1140545326765_636538961_4144"/>
+            <connection id="1140542708437_1294118573_2289" from-id="1140542708437_1861946996_2280" to-id="1140542708437_1087584085_2277"/>
+            <connection id="1140568080234_522025477_811" from-id="1140568080234_413971505_803" to-id="1140568080234_826133154_800"/>
+            <connection id="1140540461484_846988960_583" from-id="1140540461484_406729875_575" to-id="1140540461484_1359453034_572"/>
+            <connection id="1140545191953_255976229_4073" from-id="1140545191953_365430824_4064" to-id="1140545191953_1145088066_4061"/>
+            <connection id="1140636715671_579756869_2027" from-id="1140636606937_1096774983_1912" to-id="1140636715671_908182928_2024"/>
+            <connection id="1140542402187_156470785_1968" from-id="1140541395640_423031098_1421" to-id="1140542402187_1318710905_1965"/>
+            <connection id="1140545239593_338595284_4099" from-id="1140545081109_1177382248_3966" to-id="1140545239593_1627955838_4096"/>
+            <connection id="1140635231312_43493474_925" from-id="1140570478218_882567928_2272" to-id="1140635231312_1385562584_922"/>
+            <connection id="1140635289500_938897835_986" from-id="1140635289500_16030588_977" to-id="1140541075093_71248338_1094"/>
+            <connection id="1140540513687_853751935_667" from-id="1140540461484_406729875_575" to-id="1140540513687_1341022852_664"/>
+        </connection-list>
+        <resource-group-list>
+            <resource-group parent-id="1140541065718_1217107995_1075" group-type="image">
+                <resource id="1140546042593_1525649702_4649" label="Cell Wall Differences in Gram"
+                    description="Profiles of the cell envelope in Gram positive and negative bacteria. The Gram+ cell wall is composed largely of peptidoglycan (murein), while the Gram- cell wall is thin and appears multilayered."
+                    resource-name="Cell Wall Differences in Gram" resource-mimetype="image/jpeg" resource-server-id="1079030546187_1204645541_0" resource-folder-id="1141143744468_922977318_2492" resource-id="1141143749656_1019994788_2505" resource-url="http://cmapspublic2.ihmc.us/rid=1141143749656_1019994788_2505/Cell%20Wall%20Differences%20in%20Gram.jpg"/>
+            </resource-group>
+            <resource-group parent-id="1140542402187_1823674163_1962" group-type="image">
+                <resource id="1140544138453_1044156787_3399" label="FlagellumUltrastructure"
+                    description="Ultrastructure of bacterial flagellum. The flagellum consists of three parts: the basal body, hook, and filament. The inner rings (S&amp;M) are located with the plasma membrane and the outer rings (L&amp;P) are found in the peptidoglycan and outer membrane."
+                    resource-name="FlagellumUltrastructure" resource-mimetype="image/jpeg" resource-server-id="1079030546187_1204645541_0" resource-folder-id="1141143744468_922977318_2492" resource-id="1141143745640_1420907114_2500" resource-url="http://cmapspublic2.ihmc.us/rid=1141143745640_1420907114_2500/FlagellumUltrastructure.jpg"/>
+            </resource-group>
+            <resource-group parent-id="1140540974187_1981016005_961" group-type="image">
+                <resource id="1140545991234_1544238158_4612" label="Cell Wall Differences"
+                    description="Profiles of the cell envelope in Gram positive and negative bacteria. The Gram+ cell wall is composed largely of peptidoglycan (murein), while the Gram- cell wall is thin and appears multilayered."
+                    resource-name="Cell Wall Differences in Gram" resource-mimetype="image/jpeg" resource-server-id="1079030546187_1204645541_0" resource-folder-id="1141143741140_1854916111_2481" resource-id="1141143749656_1019994788_2505" resource-url="http://cmapspublic2.ihmc.us/rid=1141143749656_1019994788_2505/Cell%20Wall%20Differences%20in%20Gram.jpg"/>
+            </resource-group>
+            <resource-group parent-id="1140541611640_290104039_1598" group-type="image">
+                <resource id="1140542025796_891232275_1882" label="Monotrichous Flagella" description="Desulfovibrio species, with a single polar flagellum. TEM ~15k x" resource-name="Monotrichous" resource-mimetype="image/jpeg"
+                    resource-server-id="1079030546187_1204645541_0" resource-folder-id="1141142530328_1678345388_2241" resource-id="1141143753546_1874247883_2509" resource-url="http://cmapspublic2.ihmc.us/rid=1141143753546_1874247883_2509/Monotrichous.jpg"/>
+            </resource-group>
+            <resource-group parent-id="1140541395640_423031098_1421" group-type="image">
+                <resource id="1140542439890_1382361612_2015" label="Types of Flagella" description="Flagellar stains of three bacteria: B.cereus, V.cholerae, B.brevis. If a bacterium possesses flagella, it is assumed to be motile."
+                    resource-name="FlagellarTypes" resource-mimetype="image/jpeg" resource-server-id="1079030546187_1204645541_0" resource-folder-id="1141142530328_1678345388_2241" resource-id="1141143755843_565320384_2513" resource-url="http://cmapspublic2.ihmc.us/rid=1141143755843_565320384_2513/FlagellarTypes.jpg"/>
+            </resource-group>
+        </resource-group-list>
+        <concept-appearance-list>
+            <concept-appearance id="1140541260703_1117565163_1295" x="279" y="1182" width="81" height="28" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540771328_1546356298_838" x="611" y="523" width="97" height="20" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="255,255,204,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541065718_1217107995_1075" x="1517" y="711" width="80" height="49" font-size="16" font-style="bold" background-color="255,100,0,255" background-image-style="full" border-thickness="2" stylesheet-id="1140540260437_1900999339_535"/>
+            <concept-appearance id="1140542708437_1087584085_2277" x="2313" y="549" width="87" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541451734_1302110031_1483" x="1950" y="182" width="52" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540461484_1359453034_572" x="421" y="324" width="68" height="41" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541095812_1423799284_1117" x="907" y="863" width="46" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140568080234_826133154_800" x="1214" y="326" width="40" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140540593531_1458204003_756" x="514" y="465" width="57" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140635033312_1485681167_811" x="379" y="825" width="41" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140636828609_1395928297_2114" x="1992" y="1460" width="62" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140567612125_600427877_675" x="1697" y="426" width="89" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140541655062_240593184_1659" x="1950" y="307" width="64" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140546183671_201221729_4703" x="1061" y="1129" width="69" height="27" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140545326765_162543730_4141" x="1336" y="396" width="84" height="39" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140541599718_794583330_1565" x="1820" y="307" width="77" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541422640_1848758375_1452" x="1755" y="182" width="46" height="28" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140570062171_414103847_2100" x="1725" y="897" width="114" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140542402187_1823674163_1962" x="2103" y="208" width="79" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541362359_953831521_1393" x="508" y="1182" width="67" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540538187_2109588844_683" x="331" y="511" width="82" height="41" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541674812_1738611816_1690" x="1950" y="426" width="78" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140634807140_2042189893_633" x="169" y="825" width="88" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140545655203_141355981_4348" x="1595" y="1072" width="53" height="27" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140635231312_1385562584_922" x="788" y="1054" width="109" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140546137953_699050600_4673" x="977" y="1124" width="75" height="42" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140541328375_1283204561_1343" x="466" y="1051" width="97" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140545494062_2135561197_4268" x="1161" y="972" width="98" height="42" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140636606937_1096774983_1912" x="1759" y="1225" width="57" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140545081109_1177382248_3966" x="1138" y="207" width="43" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140570285656_193503454_2209" x="1700" y="1356" width="75" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140540643843_1353159145_774" x="763" y="420" width="88" height="18" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140540119437_323080368_403" x="614" y="95" width="77" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140635504640_1315192620_1129" x="1295" y="1156" width="68" height="29" background-color="255,255,150,255" background-image-style="full" shadow-color="stylesheet-shadow-color" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140635611500_385103450_1191" x="1195" y="638" width="77" height="31" background-color="255,255,150,255" background-image-style="full" shadow-color="stylesheet-shadow-color" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140542529968_1580708582_2074" x="2103" y="446" width="64" height="39" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540025750_1152504014_330" x="849" y="149" width="134" min-width="112" height="68" min-height="29" background-image-style="full" border-thickness="3" shadow-color="stylesheet-shadow-color" stylesheet-id="1140540260437_1900999339_535">
+                <localized-style begin="0" end="8" font-style="bold"/>
+                <localized-style begin="0" end="8" font-style="not-italic"/>
+                <localized-style begin="0" end="8" font-size="18.0"/>
+            </concept-appearance>
+            <concept-appearance id="1140634957703_1275694912_746" x="105" y="967" width="82" height="55" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140545669937_1829790349_4378" x="1825" y="1084" width="122" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140634898718_360569792_705" x="249" y="936" width="104" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140540513687_1341022852_664" x="763" y="305" width="55" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140542588812_2087040830_2164" x="2203" y="411" width="49" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541210187_28932906_1234" x="226" y="1051" width="97" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140542687875_494811353_2243" x="2203" y="549" width="70" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540974187_1981016005_961" x="1006" y="785" width="83" height="49" font-size="16" font-style="bold" background-color="200,150,255,255" background-image-style="full" border-thickness="2" stylesheet-id="1140540260437_1900999339_535"/>
+            <concept-appearance id="1140545114734_472858656_3999" x="1374" y="208" width="60" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140545191953_1145088066_4061" x="1053" y="327" width="110" height="42" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140542616984_1266961941_2196" x="2371" y="411" width="45" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541116125_1109972859_1173" x="626" y="823" width="44" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140542511828_505355559_2039" x="2103" y="336" width="51" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541637734_1016880454_1630" x="1820" y="426" width="92" height="20" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140540583000_106627839_732" x="486" y="526" width="102" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541611640_290104039_1598" x="1597" y="424" width="89" height="35" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140545565593_600963062_4300" x="1018" y="971" width="72" height="31" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140543091578_1073948273_2492" x="2450" y="297" width="36" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140635252750_2053291566_942" x="788" y="1160" width="90" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140542747109_286094624_2320" x="2282" y="297" width="45" height="27" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140636889375_2078585376_2174" x="1569" y="1492" width="45" height="26" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140540502546_1005919471_646" x="685" y="349" width="57" height="41" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140545485656_481421769_4241" x="1446" y="976" width="98" height="42" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140541340296_1477740796_1362" x="408" y="1185" width="70" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140636660906_815617377_1952" x="1992" y="1231" width="131" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140570478218_604662559_2269" x="602" y="1055" width="125" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140541395640_423031098_1421" x="1956" y="72" width="58" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541585109_1728979065_1536" x="1650" y="307" width="65" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140540572734_1877937798_714" x="394" y="583" width="95" height="42" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140636909406_1819533280_2204" x="1684" y="1521" width="90" height="39" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140636776375_401398327_2080" x="1993" y="1347" width="76" height="27" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140541105687_363106779_1145" x="1453" y="848" width="27" height="17" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+            <concept-appearance id="1140541237468_1303709278_1264" x="167" y="1184" width="35" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541075093_71248338_1094" x="479" y="716" width="125" height="48" font-size="14" font-style="bold" background-image-style="full" stylesheet-id="1140540260437_1900999339_535"/>
+            <concept-appearance id="1140540487656_277713092_601" x="611" y="417" width="58" height="41" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140541183828_427162264_1203" x="483" y="880" width="101" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+            <concept-appearance id="1140636849187_504259998_2144" x="1825" y="1464" width="63" height="40" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <concept-appearance id="1140540232734_1563471857_515" x="582" y="161" width="87" height="19" background-image-style="full" stylesheet-id="1140540687703_1352519224_807"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1140636606937_292611786_1915" x="1910" y="1155" width="65" height="12" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541260703_663053889_1298" x="278" y="1114" width="51" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541340296_829716026_1365" x="408" y="1113" width="47" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140635252750_1307893061_945" x="788" y="1107" width="49" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140634898734_137217846_708" x="247" y="887" width="71" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140567612125_2089046802_678" x="1697" y="363" width="34" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541105703_1475143906_1148" x="1454" y="780" width="63" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140635289500_16030588_977" x="821" y="821" width="50" height="28" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140635033312_424747705_814" x="276" y="825" width="79" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140568080234_413971505_803" x="1212" y="247" width="49" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541210187_46320807_1237" x="335" y="974" width="34" height="13" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140634957703_1130060486_749" x="103" y="887" width="29" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140635534687_1470735002_1142" x="1295" y="1074" width="75" height="24" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140634807140_1803796953_636" x="169" y="741" width="40" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541637734_692244560_1633" x="1820" y="363" width="58" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140542588812_132336017_2167" x="2203" y="357" width="64" height="14" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541674812_1010681581_1693" x="1950" y="363" width="58" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541362375_1831740034_1396" x="505" y="1106" width="51" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541585109_1169081095_1539" x="1755" y="240" width="55" height="12" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140542747109_2050731613_2323" x="2375" y="210" width="65" height="12" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140540119437_1119774175_406" x="710" y="151" width="38" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140540643859_1315893189_777" x="763" y="358" width="20" height="9" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140545356406_1690013456_4169" x="1462" y="383" width="65" height="14" background-image-style="full" stylesheet-id="1140544697359_2054340127_3821">
+                <localized-style begin="4" end="10" font-style="bold"/>
+                <localized-style begin="4" end="10" font-style="not-italic"/>
+            </linking-phrase-appearance>
+            <linking-phrase-appearance id="1140541095812_1727353434_1120" x="907" y="787" width="63" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140542529984_868764907_2077" x="2103" y="391" width="68" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140542402187_1318710905_1965" x="2103" y="126" width="78" height="14" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140635892218_793382517_1359" x="1323" y="702" width="88" height="41" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140540974187_77887735_964" x="912" y="444" width="89" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541183828_646426251_1206" x="478" y="774" width="54" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140570213437_1686639575_2139" x="1611" y="947" width="102" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140636828625_219757103_2117" x="1992" y="1403" width="55" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140570478218_882567928_2272" x="689" y="974" width="55" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140542511828_1624753043_2042" x="2103" y="276" width="68" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541237468_1314490271_1267" x="167" y="1115" width="47" height="25" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541655062_1043004708_1662" x="1950" y="240" width="55" height="12" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140636737812_490244952_2055" x="1851" y="1255" width="55" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140636849187_1157390505_2147" x="1895" y="1385" width="88" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140636776375_1722680951_2083" x="1992" y="1280" width="22" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140544595234_1792505205_3762" x="2446" y="618" width="39" height="11" background-image-style="full" stylesheet-id="1140544697359_2054340127_3821">
+                <localized-style begin="4" end="7" font-style="bold"/>
+                <localized-style begin="4" end="7" font-style="not-italic"/>
+            </linking-phrase-appearance>
+            <linking-phrase-appearance id="1140636715671_908182928_2024" x="1751" y="1283" width="49" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140545494062_1625439383_4271" x="1065" y="844" width="62" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541422640_536772443_1455" x="1848" y="125" width="40" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140546137953_49427210_4676" x="1018" y="1026" width="12" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140542687875_749320891_2246" x="2203" y="474" width="86" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140545326765_636538961_4144" x="1336" y="333" width="40" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140545239593_1627955838_4096" x="1213" y="461" width="39" height="11" background-image-style="full" stylesheet-id="1140544697359_2054340127_3821">
+                <localized-style begin="4" end="7" font-style="bold"/>
+                <localized-style begin="4" end="7" font-style="not-italic"/>
+            </linking-phrase-appearance>
+            <linking-phrase-appearance id="1140540461484_406729875_575" x="585" y="238" width="52" height="28" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140540771328_1099118350_841" x="611" y="475" width="20" height="9" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140542708437_1861946996_2280" x="2313" y="474" width="86" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140636889375_875606172_2177" x="1660" y="1414" width="97" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140635870031_2000363598_1333" x="1119" y="718" width="118" height="41" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541611640_73766093_1601" x="1597" y="363" width="37" height="14" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140545485656_1620726828_4244" x="1569" y="812" width="65" height="25" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140545191953_365430824_4064" x="1053" y="248" width="40" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140542809718_1197597090_2369" x="2367" y="357" width="89" height="11" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140570246218_646992247_2169" x="1731" y="993" width="51" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140540538187_422150816_686" x="423" y="404" width="84" height="24" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+            <linking-phrase-appearance id="1140541395640_1415705693_1424" x="1134" y="93" width="53" height="11" background-image-style="full" stylesheet-id="1140541030046_1387186329_1033"/>
+            <linking-phrase-appearance id="1140541116125_935002739_1176" x="626" y="755" width="66" height="14" font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1140541655062_536891169_1665" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635892218_200636068_1362" from-pos="center" to-pos="center" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541210187_1610215040_1240" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140570478218_1320808667_2280" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140544595234_174072880_3770" from-pos="bottom" to-pos="right" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="2358" y="698"/>
+            </connection-appearance>
+            <connection-appearance id="1140540119453_772956007_416" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540572734_1566300163_717" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541611640_469929632_1610" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635033312_1381842790_822" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140635892218_1478513579_1367" from-pos="center" to-pos="left" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140635252750_1509834749_954" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542529984_1870961651_2080" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541237468_30129973_1276" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540643859_603033846_780" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541422640_794904482_1464" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636606953_1900237371_1923" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140570213437_1665185968_2148" from-pos="center" to-pos="right" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140546183671_1831867462_4706" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636889375_770702565_2180" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541237468_1023894614_1270" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541116125_2000094893_1179" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636849187_5284142_2150" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636909406_1082373031_2207" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545326765_541857263_4153" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542588812_1619743392_2175" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541095812_379291414_1129" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540502546_327727755_649" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635534687_1615813384_1151" from-pos="center" to-pos="bottom" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545485656_1020762502_4252" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545356406_2059903136_4177" from-pos="center" to-pos="top-right" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="1520" y="530"/>
+            </connection-appearance>
+            <connection-appearance id="1140545494062_1140423685_4274" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636889375_419273429_2186" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545191953_1272101925_4067" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636715671_1773458967_2032" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541422640_430992377_1458" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636606937_1294229768_1918" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541116125_1271713700_1185" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540119453_443703287_410" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140570246218_508977694_2172" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140634957703_66406185_752" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636660906_1686818017_1955" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636828625_749249134_2126" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545494062_1662042232_4279" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541183828_986655232_1209" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140567612125_2119432425_681" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540487656_347934710_604" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636776375_1592560420_2086" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140634807140_582272927_639" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140546137953_917091937_4685" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540461484_1965633161_578" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635549875_1012110098_1168" from-pos="center" to-pos="bottom-left" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542529984_126778924_2086" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540771328_188206778_844" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540974187_1228765711_967" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="2" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540538187_431133870_689" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140545239593_1407893500_4104" from-pos="center" to-pos="top" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="1352" y="582"/>
+            </connection-appearance>
+            <connection-appearance id="1140541395640_1154160612_1432" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545114734_771180274_4002" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540771328_848940609_850" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140570246218_656738725_2177" from-pos="center" to-pos="top" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542708437_1485284806_2283" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542747109_1522074115_2326" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542687875_65936233_2255" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541095812_891522953_1123" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140546137953_1006135190_4679" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542809718_548963407_2372" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140634957703_1181674776_757" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541183828_375319142_1214" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541210187_1665553280_1246" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140568080234_1784818859_806" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541340296_969121032_1374" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541655062_1437394987_1671" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541105703_1632169337_1157" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636849187_1144286288_2155" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140543091578_1567292794_2495" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542799859_102133560_2348" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541105703_954951101_1151" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140634898734_168246614_716" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541585109_629602770_1548" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140570254875_804509681_2194" from-pos="center" to-pos="top" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140635870031_1660162420_1336" from-pos="center" to-pos="center" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541260703_1933596334_1301" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540232750_874110070_518" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541362375_1746409082_1404" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636737812_6094250_2058" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542809718_1561332385_2377" from-pos="center" to-pos="top" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541674812_991440575_1696" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635033312_1212792144_817" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140570062171_1747017339_2103" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140570478218_980221225_2275" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636828625_1510289656_2120" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540974187_2128313702_972" from-pos="center" to-pos="center" thickness="2" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541395640_1384862179_1427" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541065718_1833557988_1078" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="2" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542747109_1678030404_2331" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540538187_434776346_695" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541611640_1966118339_1604" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541585109_601067097_1542" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140544595234_1066514209_3765" from-pos="center" to-pos="center" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="2459" y="489"/>
+            </connection-appearance>
+            <connection-appearance id="1140545565593_1541744223_4303" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545356406_10251884_4172" from-pos="center" to-pos="center" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="1420" y="308"/>
+            </connection-appearance>
+            <connection-appearance id="1140541637734_974945656_1636" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541340296_84073224_1368" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541075093_817273389_1097" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="2" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140634898734_1398022689_711" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140634807156_69789650_644" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540593531_1415815981_759" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140636776375_1423865477_2092" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542511828_140021990_2045" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541260703_436533871_1306" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541637734_1413098597_1642" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635534687_1037678102_1145" from-pos="center" to-pos="center" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541599734_918811763_1568" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542511828_1615032123_2051" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140541451750_906071758_1486" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542402187_934179142_1973" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635252750_671190771_948" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140635870031_1738007059_1341" from-pos="center" to-pos="right" color="255,0,0,255" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540643859_156360866_786" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140567612125_179513340_686" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545081109_1596939526_3969" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636737812_1368398893_2063" from-pos="center" to-pos="left" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140545485656_2019818327_4247" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541362375_404457527_1399" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140570213437_1692076030_2142" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140541674812_128400891_1702" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140542687875_1650291204_2249" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140540583000_1287163285_735" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140635289500_295612807_980" from-pos="center" to-pos="center" style="dotted" type="bezier-4pt" stylesheet-id="1140541030046_1387186329_1033">
+                <control-point x="913" y="1022"/>
+                <control-point x="858" y="904"/>
+            </connection-appearance>
+            <connection-appearance id="1140541328375_2131585100_1346" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140545326765_1424449143_4147" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542708437_1294118573_2289" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140568080234_522025477_811" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140540461484_846988960_583" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140545191953_255976229_4073" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140636715671_579756869_2027" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140542402187_156470785_1968" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1140545239593_338595284_4099" from-pos="center" to-pos="center" type="bezier-3pt" stylesheet-id="1140544697359_2054340127_3821">
+                <control-point x="1161" y="385"/>
+            </connection-appearance>
+            <connection-appearance id="1140635231312_43493474_925" from-pos="center" to-pos="center" type="straight" stylesheet-id="1140541030046_1387186329_1033"/>
+            <connection-appearance id="1140635289500_938897835_986" from-pos="center" to-pos="right" style="dotted" type="bezier-4pt" stylesheet-id="1140541030046_1387186329_1033">
+                <control-point x="754" y="757"/>
+                <control-point x="719" y="734"/>
+            </connection-appearance>
+            <connection-appearance id="1140540513687_853751935_667" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <concept-style font-name="Segoe UI" font-size="14" font-style="bold" background-color="255,255,150,255" border-thickness="3" border-shape="rounded-rectangle" shadow-color="stylesheet-shadow-color"/>
+                <linking-phrase-style font-name="Segoe UI" border-style="dotted" border-shape="rectangle"/>
+                <connection-style color="255,0,0,255" style="dotted" thickness="2" arrowhead="if-to-concept"/>
+            </style-sheet>
+            <style-sheet id="1140541030046_1387186329_1033" name="Normal">
+                <concept-style font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" text-alignment="center" shadow-color="none"/>
+                <linking-phrase-style font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,0" border-style="solid" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" arrowhead="if-to-concept"/>
+            </style-sheet>
+            <style-sheet id="1140540260437_1900999339_535" name="Root Style">
+                <concept-style font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="200,255,200,255" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="oval"
+                    text-alignment="center" shadow-color="none"/>
+            </style-sheet>
+            <style-sheet id="1140540687703_1352519224_807" name="Characteristics">
+                <concept-style font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="255,255,204,255" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none"/>
+            </style-sheet>
+            <style-sheet id="1140544697359_2054340127_3821" name="Leading to">
+                <linking-phrase-style font-name="Segoe UI" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,0" border-style="dotted" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none"/>
+                <connection-style color="0,0,0,255" style="dotted" thickness="1" arrowhead="if-to-concept"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-properties-list>
+            <properties-list id="1140542025796_891232275_1882">
+                <property key="_urlString" value="http://cmapspublic2.ihmc.us/rid=1141143753546_1874247883_2509/Monotrichous.jpg"/>
+            </properties-list>
+            <properties-list id="1140544138453_1044156787_3399">
+                <property key="_urlString" value="http://cmapspublic2.ihmc.us/rid=1141143745640_1420907114_2500/FlagellumUltrastructure.jpg"/>
+            </properties-list>
+            <properties-list id="1140546042593_1525649702_4649">
+                <property key="_urlString" value="http://cmapspublic2.ihmc.us/rid=1141143749656_1019994788_2505/Cell%20Wall%20Differences%20in%20Gram.jpg"/>
+            </properties-list>
+            <properties-list id="1140545991234_1544238158_4612">
+                <property key="_urlString" value="http://cmapspublic2.ihmc.us/rid=1141143749656_1019994788_2505/Cell%20Wall%20Differences%20in%20Gram.jpg"/>
+            </properties-list>
+            <properties-list id="1140542439890_1382361612_2015">
+                <property key="_urlString" value="http://cmapspublic2.ihmc.us/rid=1141143755843_565320384_2513/FlagellarTypes.jpg"/>
+            </properties-list>
+        </extra-properties-list>
+        <extra-graphical-properties-list>
+            <properties-list id="1M8CD2885-1306PVY-27Y">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @:1140540260437_1900999339_535:1140540687703_1352519224_807:1140541030046_1387186329_1033:1140544697359_2054340127_3821"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>
