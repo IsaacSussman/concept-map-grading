@@ -6,6 +6,7 @@ import xml
 import networkx as nx
 import matplotlib.pyplot as plt
 import os
+from warnings import warn
 
 # Systenmatic lit review
 
@@ -56,26 +57,42 @@ class BundlePhrase:
 
 
 class Cxl:
-    def __init__(self, path: str, fuzzy:bool = False) -> None:
+    def __init__(self, path: str = "", fuzzy:bool = False, nname = "Untitled") -> None:
         self._tree = ET.parse(path)
         self.concepts_by_id: dict = None
         self.concepts_by_label: dict = None
         self.connections: list[Connection] = None
         # self.connections_by_from_id: dict = None
         # self.connections_by_to_id: dict = None
-        self.graph = nx.DiGraph() if not fuzzy else nx.Graph()
+        self.graph = nx.DiGraph(name=nname) if not fuzzy else nx.Graph(name = nname)
         self.phrases_by_id: dict = None
         # self.phrases_by_label: dict = None
-        self._file_path = ""
         self.fuzzy = fuzzy
+        self._file_path = path
+        self.name = nname
+        self._parsed = False
+        if path != "":
+            self.import_data(path)
+        
 
     
     def import_data(self, path: str = None) -> None:
         if path:
             self._file_path = path
+        else:
+            raise FileNotFoundError(path)
 
         if (not self._file_path) or self._file_path == "" or not os.path.exists(self._file_path):
             raise FileNotFoundError(self._file_path)
+        
+        self._parsed = False
+        self._tree = ET.parse(path)
+        self.concepts_by_id: dict = None
+        self.concepts_by_label: dict = None
+        self.connections: list[Connection] = None
+        self.graph = nx.DiGraph(name = self.name) if not self.fuzzy else nx.Graph(name = self.name)
+        self.phrases_by_id: dict = None
+
         self._tree = ET.parse(path)
 
 
@@ -99,7 +116,6 @@ class Cxl:
     def show_map(map: Cxl) -> None:
         d = {i:map.concepts_by_id[i]["label"] for i in map.concepts_by_id}
         e = {i:map.phrases_by_id[i]['label'] for i in map.phrases_by_id}
-        print("nodes: ", [f'{d[i]} {i}' for i in list(map.graph.nodes)], f"\nd:{d}")
         G = map.graph
         nx.draw_networkx(map.graph, with_labels=True, labels=d, font_size = 8, pos=nx.shell_layout(G, scale=2))
         nx.draw_networkx_edge_labels(map.graph,nx.shell_layout(map.graph, scale=2), edge_labels=nx.get_edge_attributes(map.graph,'label'))
@@ -107,6 +123,7 @@ class Cxl:
         
 
     def parse_map(self):
+        self._parsed = True
         concept_list = []
         for i in self._tree.getroot()[1][0].iter():
             if i.attrib == {}:
@@ -142,13 +159,6 @@ class Cxl:
         connections_by_interaction: list[Connection] = []
         self.connections = []
 
-        
-        """for i in list(self.concepts_by_id.keys()):
-            print(i)
-            self.graph.add_node(i)
-
-        Cxl.show_map(self)"""
-
         for i in self.phrases_by_id:
             storage = {'from': [], 'to': []}
             for j in initial_connections_by_id:
@@ -157,30 +167,9 @@ class Cxl:
                 if initial_connections_by_id[j]["from-id"] == i:
                     storage['to'].append(initial_connections_by_id[j]["to-id"])
                 if initial_connections_by_id[j]["from-id"] == i and initial_connections_by_id[j]["to-id"] == i:
-                    print("MISSION CONTROL WE HAVE A PHRASE-PHRASE CONNECTION! ABORT ABORT ABOUR")
-                    exit(-1)
-                """if initial_connections_by_id[j]["from-id"] != i and initial_connections_by_id[j]["to-id"] != i: 
-                    # Missing Label
-                    self.connections.append(Connection(initial_connections_by_id[j]["from-id"], initial_connections_by_id[j]["to-id"], initial_connections_by_id[j]["id"]))
-                    print("Special! -> ",self.connections[-1])"""
+                    raise InvalidCmapFileException("Connections between linking phrases aren't supported at this time", self._file_path)
             bund = BundlePhrase(self.phrases_by_id[i]["label"], i, storage["from"], storage["to"]) 
             self.connections.extend(bund.list_connections())
-
-        
-
-
-        """
-        
-        # self.connections_by_from_id = {x["from-id"]:x for x in connection_list}
-        # self.connections_by_to_id = {x["to-id"]:x for x in connection_list}
-
-        '''for i in self.concepts_by_id:
-            self.graph.add_node(i)'''
-        """
-
-        
-        
-
 
         # self._fix_connections() ### MARKED FOR DELETION ###
         d = {i:self.concepts_by_id[i]["label"] for i in self.concepts_by_id}
@@ -189,13 +178,16 @@ class Cxl:
             self.graph.add_edge(i.from_id, i.to_id, id=i.id, label = i.label)
             if self.fuzzy:
                 self.graph[i.from_id][i.to_id].update({'weight':i.label})
+
+    def __str__(self):
+        return "Unparsed Map" if not self._parsed else f"{self.name}: {len(self.graph.nodes())} nodes with {len(self.graph.edges())} connections between them"
         
 
 
 # Comp: # of nodes
 # Org: Density
 if __name__ == "__main__":
-    test = Cxl("concept_map_example.cxl")
+    test = Cxl("cmaps/Bacterial Characteristics.cxl")
     test.parse_map()
 #   print(test.concepts_by_label)
 #   print({i:test.concepts_by_id[i]["label"] for i in test.concepts_by_id})
