@@ -1,19 +1,22 @@
 from __future__ import annotations 
 
-import xml.etree.ElementTree
 import defusedxml.ElementTree as ET
-import xml
 import networkx as nx
 import matplotlib.pyplot as plt
 import os
 from warnings import warn
+from enum import Enum
 
 # Systenmatic lit review
-
 class InvalidCmapFileException(Exception):
     def __init__(self, message, file_path):
         super().__init__(message)
         self.file_path = file_path
+
+class UnparsedMapException(InvalidCmapFileException):
+    def __init__(self, file_path, function: function):
+        super().__init__(f"There must be a parsed map before you can use {function.__name__}", file_path)
+
 
 class Connection:
     def __init__(self, from_id, to_id, id:str = None, label: str = None):
@@ -57,6 +60,13 @@ class BundlePhrase:
 
 
 class Cxl:
+    class LinkType(Enum):
+        REVERSE = "reverse"
+        TREE = "tree"
+        CROSS = "nontree"
+        ALL = "all"
+
+
     def __init__(self, path: str = "", fuzzy:bool = False, nname = "Untitled") -> None:
         self._tree = ET.parse(path)
         self.concepts_by_id: dict = None
@@ -73,8 +83,14 @@ class Cxl:
         self._parsed = False
         if path != "":
             self.import_data(path)
+        self.no_outgoing_ids = []
+        self.no_incoming_ids = []
         
-
+        
+    def _list_clusters(self, res):
+        if not self._parsed:
+            raise UnparsedMapException(self._file_path, Cxl._list_clusters)
+        return nx.community.louvain_communities(self.graph, resolution=res)
     
     def import_data(self, path: str = None) -> None:
         if path:
@@ -113,12 +129,15 @@ class Cxl:
             
                 
     @staticmethod
-    def show_map(map: Cxl) -> None:
+    def show_map(map: Cxl, label_edges = False) -> None:
+        if not map._parsed:
+            raise UnparsedMapException(map._file_path, Cxl.show_map)
         d = {i:map.concepts_by_id[i]["label"] for i in map.concepts_by_id}
         e = {i:map.phrases_by_id[i]['label'] for i in map.phrases_by_id}
         G = map.graph
         nx.draw_networkx(map.graph, with_labels=True, labels=d, font_size = 8, pos=nx.shell_layout(G, scale=2))
-        nx.draw_networkx_edge_labels(map.graph,nx.shell_layout(map.graph, scale=2), edge_labels=nx.get_edge_attributes(map.graph,'label'))
+        if label_edges:
+            nx.draw_networkx_edge_labels(map.graph,nx.shell_layout(map.graph, scale=2), edge_labels=nx.get_edge_attributes(map.graph,'label'))
         plt.show()
         
 
@@ -181,6 +200,62 @@ class Cxl:
 
     def __str__(self):
         return "Unparsed Map" if not self._parsed else f"{self.name}: {len(self.graph.nodes())} nodes with {len(self.graph.edges())} connections between them"
+    
+    def _find_leaves(self):
+        if not self._parsed:
+            raise UnparsedMapException(self._file_path, Cxl._find_leaves)
+        for i in self.graph.nodes():
+            if len(list(self.graph.predecessors(i))) == 0 and len(list(self.graph.successors(i))) == 0:
+                print("DELEEEEEETE")
+                self.graph.remove_node(i)
+            elif len(list(self.graph.predecessors(i))) == 0:
+                self.no_incoming_ids.append(i)
+            elif len(list(self.graph.successors(i))) ==0:
+                self.no_outgoing_ids.append(i)
+        self.no_outgoing_ids = list(set(self.no_outgoing_ids))
+        self.no_incoming_ids = list(set(self.no_incoming_ids))
+    
+    @staticmethod
+    def link_count(map: Cxl, root_id: str, linkTypes: LinkType[str] = [LinkType.CROSS]):
+        if not map._parsed:
+            raise UnparsedMapException(map._file_path, Cxl.show_map)
+        if type(linkTypes) == str:
+            linkTypes = [linkTypes]
+        G = map.graph
+        le = nx.traversal.dfs_labeled_edges(G, source=root_id)
+        count = 0
+        if Cxl.LinkType.ALL in linkTypes:
+            return len(list(le))
+        count+=sum([int(i[2] == "nontree") for i in le]) if Cxl.LinkType.CROSS in linkTypes else 0
+        count+=sum([int(i[2] == "forward") for i in le]) if Cxl.LinkType.TREE in linkTypes else 0
+        count+=sum([int(i[2] == "reverse") for i in le]) if Cxl.LinkType.REVERSE in linkTypes else 0
+
+        return count
+        """
+        _visited = {i:False for i in G.nodes}
+        _traversal_order = []
+        _node_order = [i for i in G.nodes]
+        time = 0
+        def _DFS(G: nx.graph, id:str):
+            nonlocal time
+            nonlocal _visited
+            nonlocal _traversal_order
+            nonlocal _node_order
+            _visited[id] = True
+            _traversal_order.append(id)
+            p = nx.predecessor(G, id)
+
+            for i in nx.traversal.dfs_labeled_edges"""
+
+        # _DFS(G, root_id)
+
+    
+    
+        
+        
+
+            
+        
         
 
 
