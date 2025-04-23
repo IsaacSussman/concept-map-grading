@@ -129,15 +129,19 @@ class Cxl:
             
                 
     @staticmethod
-    def show_map(map: Cxl, label_edges = False) -> None:
+    def show_map(map: Cxl, label_edges = False, colors:list = None) -> None:
         if not map._parsed:
             raise UnparsedMapException(map._file_path, Cxl.show_map)
         d = {i:map.concepts_by_id[i]["label"] for i in map.concepts_by_id}
         e = {i:map.phrases_by_id[i]['label'] for i in map.phrases_by_id}
         G = map.graph
-        nx.draw_networkx(map.graph, with_labels=True, labels=d, font_size = 8, pos=nx.shell_layout(G, scale=2))
-        if label_edges:
+        if colors:
+            print(colors)
+            nx.draw_networkx(map.graph, with_labels=True, labels=d, font_size = 8, pos=nx.shell_layout(G, scale=2), node_color=colors)
+        elif label_edges:
             nx.draw_networkx_edge_labels(map.graph,nx.shell_layout(map.graph, scale=2), edge_labels=nx.get_edge_attributes(map.graph,'label'))
+        else:
+            nx.draw_networkx(map.graph, with_labels=True, labels=d, font_size = 8, pos=nx.shell_layout(G, scale=2))
         plt.show()
         
 
@@ -206,7 +210,6 @@ class Cxl:
             raise UnparsedMapException(self._file_path, Cxl._find_leaves)
         for i in self.graph.nodes():
             if len(list(self.graph.predecessors(i))) == 0 and len(list(self.graph.successors(i))) == 0:
-                print("DELEEEEEETE")
                 self.graph.remove_node(i)
             elif len(list(self.graph.predecessors(i))) == 0:
                 self.no_incoming_ids.append(i)
@@ -248,6 +251,124 @@ class Cxl:
             for i in nx.traversal.dfs_labeled_edges"""
 
         # _DFS(G, root_id)
+    
+    @staticmethod
+    def _dfs_labeled_edges(G, source=None, depth_limit=None, *, sort_neighbors=None):
+        """Iterate over edges in a depth-first-search (DFS) labeled by type.
+
+        Parameters
+        ----------
+        G : NetworkX graph
+
+        source : node, optional
+        Specify starting node for depth-first search and return edges in
+        the component reachable from source.
+
+        depth_limit : int, optional (default=len(G))
+        Specify the maximum search depth.
+
+        sort_neighbors : function (default=None)
+            A function that takes an iterator over nodes as the input, and
+            returns an iterable of the same nodes with a custom ordering.
+            For example, `sorted` will sort the nodes in increasing order.
+
+        Returns
+        -------
+        edges: generator
+        A generator of triples of the form (*u*, *v*, *d*), where (*u*,
+        *v*) is the edge being explored in the depth-first search and *d*
+        is one of the strings 'forward', 'nontree', 'reverse', or 'reverse-depth_limit'.
+        A 'forward' edge is one in which *u* has been visited but *v* has
+        not. A 'nontree' edge is one in which both *u* and *v* have been
+        visited but the edge is not in the DFS tree. A 'reverse' edge is
+        one in which both *u* and *v* have been visited and the edge is in
+        the DFS tree. When the `depth_limit` is reached via a 'forward' edge,
+        a 'reverse' edge is immediately generated rather than the subtree
+        being explored. To indicate this flavor of 'reverse' edge, the string
+        yielded is 'reverse-depth_limit'.
+
+        Examples
+        --------
+
+        The labels reveal the complete transcript of the depth-first search
+        algorithm in more detail than, for example, :func:`dfs_edges`::
+
+            >>> from pprint import pprint
+            >>>
+            >>> G = nx.DiGraph([(0, 1), (1, 2), (2, 1)])
+            >>> pprint(list(nx.dfs_labeled_edges(G, source=0)))
+            [(0, 0, 'forward'),
+            (0, 1, 'forward'),
+            (1, 2, 'forward'),
+            (2, 1, 'nontree'),
+            (1, 2, 'reverse'),
+            (0, 1, 'reverse'),
+            (0, 0, 'reverse')]
+
+        Notes
+        -----
+        If a source is not specified then a source is chosen arbitrarily and
+        repeatedly until all components in the graph are searched.
+
+        The implementation of this function is adapted from David Eppstein's
+        depth-first search function in `PADS`_, with modifications
+        to allow depth limits based on the Wikipedia article
+        "`Depth-limited search`_".
+
+        .. _PADS: http://www.ics.uci.edu/~eppstein/PADS
+        .. _Depth-limited search: https://en.wikipedia.org/wiki/Depth-limited_search
+
+        See Also
+        --------
+        dfs_edges
+        dfs_preorder_nodes
+        dfs_postorder_nodes
+        """
+        # Based on http://www.ics.uci.edu/~eppstein/PADS/DFS.py
+        # by D. Eppstein, July 2004.
+        if source is None:
+            # edges for all components
+            nodes = G
+        else:
+            # edges for components with source
+            nodes = [source]
+        if depth_limit is None:
+            depth_limit = len(G)
+
+        get_children = (
+            G.neighbors
+            if sort_neighbors is None
+            else lambda n: iter(sort_neighbors(G.neighbors(n)))
+        )
+
+        visited = set()
+        for start in nodes:
+            if start in visited:
+                continue
+            yield start, start, "forward"
+            visited.add(start)
+            stack = [(start, get_children(start))]
+            depth_now = 1
+            while stack:
+                parent, children = stack[-1]
+                for child in children:
+                    if child in visited:
+                        yield parent, child, "nontree"
+                    else:
+                        yield parent, child, "forward"
+                        visited.add(child)
+                        if depth_now < depth_limit:
+                            stack.append((child, iter(get_children(child))))
+                            depth_now += 1
+                            break
+                        else:
+                            yield parent, child, "reverse-depth_limit"
+                else:
+                    stack.pop()
+                    depth_now -= 1
+                    if stack:
+                        yield stack[-1][0], parent, "reverse"
+            yield start, start, "reverse"
 
     
     

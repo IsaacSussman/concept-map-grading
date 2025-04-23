@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Goldberg Concept Map.cmap</dc:title>
+        <dcterms:created>2025-04-09T11:35:14-04:00</dcterms:created>
+        <dcterms:modified>2025-04-09T11:35:14-04:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:20MLHTFGP-8CS0DK-1:external-folder:file:////C:/Users/isaac/Downloads/Cmap Analysis win/win/examples/cmaps/expert/Goldberg Concept Map.cmap</dc:source>
+    </res-meta>
+    <map width="708" height="818">
+        <concept-list>
+            <concept id="1076068164853_1444038652_3351" label="Technical background"/>
+            <concept id="1076068698200_990360503_3771" label="Regulatory requirements"/>
+            <concept id="1076068855967_410627997_3932" label="Clinical trials"/>
+            <concept id="1076068894032_583159020_3966" label="validation and&#xa;verification"/>
+            <concept id="1076068473297_346647115_3653" label="schedules"/>
+            <concept id="1076068264657_1950705104_3460" label="Communication skills"/>
+            <concept id="1076068277455_1011450913_3476" label="Interpersonal skills"/>
+            <concept id="1076068887632_1619365197_3951" label="hazard analyses"/>
+            <concept id="1076068500205_476401781_3692" label="manufacturing"/>
+            <concept id="1076068348768_325478730_3559" label="Scientific needs"/>
+            <concept id="1076068718199_1376270306_3798" label="a genesis of the&#xa;design process"/>
+            <concept id="1076068734362_1046539946_3823" label="design reivew"/>
+            <concept id="1076068750996_621869975_3848" label="market opportunitites and constraints"/>
+            <concept id="1076068456362_2144326621_3636" label="prototype"/>
+            <concept id="1076068389356_1662085861_3594" label="Regulatory&#xa;agencies"/>
+            <concept id="1076068242304_1389290481_3431" label="management"/>
+            <concept id="1076068632375_1172523710_3727" label="innovation"/>
+            <concept id="1076068290364_1450368413_3492" label="Teamwork"/>
+            <concept id="1076068799376_523723092_3892" label="customer needs"/>
+            <concept id="1076068943733_735326383_3987" label="protocols"/>
+            <concept id="1076068662519_996524474_3754" label="useability"/>
+            <concept id="1076068772016_890130942_3865" label="market analysis"/>
+            <concept id="1076068328088_785234677_3533" label="Industry needs"/>
+            <concept id="1076068133979_1885648290_3325" label="BME Design"/>
+            <concept id="1076068306457_493261261_3509" label="Medical/clinical problem"/>
+            <concept id="1076068360895_706052939_3575" label="Overriding societal&#xa;concedrns"/>
+            <concept id="1076068438096_1779427334_3611" label="product"/>
+            <concept id="1076068235615_1931333002_3416" label="Technical skills"/>
+            <concept id="1076068204350_157749400_3382" label="Technical knowledge"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1076068438096_1650283011_3614" label="such as the development of a"/>
+            <linking-phrase id="1076068718209_2052072543_3801" label="which have resulted in"/>
+            <linking-phrase id="1076068943733_1506901635_3990" label="per written"/>
+            <linking-phrase id="1076068164853_1941178064_3354" label="requires"/>
+            <linking-phrase id="1076068306467_656666474_3512" label="involves the solution of a"/>
+            <linking-phrase id="1076068698200_325750712_3774" label="and their"/>
+            <linking-phrase id="1076068734362_210285408_3826" label="which requries"/>
+            <linking-phrase id="1076068473297_980951556_3656" label="per a project"/>
+            <linking-phrase id="1076068204350_661260988_3385" label="consisting of"/>
+            <linking-phrase id="1076068772016_845754704_3868" label="defined by"/>
+            <linking-phrase id="1076068242304_2050348263_3434" label="includeing project"/>
+            <linking-phrase id="1076068500215_1190664098_3695" label="including&#xa;design for"/>
+            <linking-phrase id="1076068632385_518166899_3730" label="including"/>
+            <linking-phrase id="1076068328098_1436112655_3536" label="constrained/affected by"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1076068306467_829663580_3515" from-id="1076068133979_1885648290_3325" to-id="1076068306467_656666474_3512"/>
+            <connection id="1076068438116_2097460202_3624" from-id="1076068438096_1650283011_3614" to-id="1076068438096_1779427334_3611"/>
+            <connection id="1076068165013_1994263885_3365" from-id="1076068164853_1941178064_3354" to-id="1076068164853_1444038652_3351"/>
+            <connection id="1076068734372_1187885053_3836" from-id="1076068734362_210285408_3826" to-id="1076068734362_1046539946_3823"/>
+            <connection id="1076068698200_1574496538_3777" from-id="1076068389356_1662085861_3594" to-id="1076068698200_325750712_3774"/>
+            <connection id="1076068473307_1038972811_3659" from-id="1076068438096_1779427334_3611" to-id="1076068473297_980951556_3656"/>
+            <connection id="1076068855977_803223341_3936" from-id="1076068718209_2052072543_3801" to-id="1076068855967_410627997_3932"/>
+            <connection id="1076068772026_697444308_3878" from-id="1076068772016_845754704_3868" to-id="1076068772016_890130942_3865"/>
+            <connection id="1076068164993_2117342323_3358" from-id="1076068133979_1885648290_3325" to-id="1076068164853_1941178064_3354"/>
+            <connection id="1076068772016_1749288833_3871" from-id="1076068750996_621869975_3848" to-id="1076068772016_845754704_3868"/>
+            <connection id="1076068328098_127143691_3539" from-id="1076068306457_493261261_3509" to-id="1076068328098_1436112655_3536"/>
+            <connection id="1076068698210_734238722_3784" from-id="1076068698200_325750712_3774" to-id="1076068698200_990360503_3771"/>
+            <connection id="1076068632385_1700189389_3739" from-id="1076068632385_518166899_3730" to-id="1076068632375_1172523710_3727"/>
+            <connection id="1076068482199_1294988334_3679" from-id="1076068456362_2144326621_3636" to-id="1076068473297_980951556_3656"/>
+            <connection id="1076068751006_498775842_3852" from-id="1076068328098_1436112655_3536" to-id="1076068750996_621869975_3848"/>
+            <connection id="1076068473307_2051452975_3666" from-id="1076068473297_980951556_3656" to-id="1076068473297_346647115_3653"/>
+            <connection id="1076068662529_883863080_3758" from-id="1076068500215_1190664098_3695" to-id="1076068662519_996524474_3754"/>
+            <connection id="1076068500225_729524175_3704" from-id="1076068500215_1190664098_3695" to-id="1076068500205_476401781_3692"/>
+            <connection id="1076068943733_440452845_3993" from-id="1076068855967_410627997_3932" to-id="1076068943733_1506901635_3990"/>
+            <connection id="1076068360895_236349965_3579" from-id="1076068328098_1436112655_3536" to-id="1076068360895_706052939_3575"/>
+            <connection id="1076068264657_1039523287_3464" from-id="1076068164853_1941178064_3354" to-id="1076068264657_1950705104_3460"/>
+            <connection id="1076068632385_830886830_3733" from-id="1076068328088_785234677_3533" to-id="1076068632385_518166899_3730"/>
+            <connection id="1076068235625_353770336_3420" from-id="1076068204350_661260988_3385" to-id="1076068235615_1931333002_3416"/>
+            <connection id="1076068328098_668684364_3546" from-id="1076068328098_1436112655_3536" to-id="1076068328088_785234677_3533"/>
+            <connection id="1076068242314_1504853775_3444" from-id="1076068242304_2050348263_3434" to-id="1076068242304_1389290481_3431"/>
+            <connection id="1076068389356_1210551712_3598" from-id="1076068328098_1436112655_3536" to-id="1076068389356_1662085861_3594"/>
+            <connection id="1076068277455_320066716_3480" from-id="1076068164853_1941178064_3354" to-id="1076068277455_1011450913_3476"/>
+            <connection id="1076068204360_2047119845_3395" from-id="1076068204350_661260988_3385" to-id="1076068204350_157749400_3382"/>
+            <connection id="1076068242314_619939252_3437" from-id="1076068235615_1931333002_3416" to-id="1076068242304_2050348263_3434"/>
+            <connection id="1076068438106_1968688477_3617" from-id="1076068328088_785234677_3533" to-id="1076068438096_1650283011_3614"/>
+            <connection id="1076068456362_1149905049_3640" from-id="1076068438096_1650283011_3614" to-id="1076068456362_2144326621_3636"/>
+            <connection id="1076068290364_1809650055_3496" from-id="1076068164853_1941178064_3354" to-id="1076068290364_1450368413_3492"/>
+            <connection id="1076068943743_2146945408_4000" from-id="1076068943733_1506901635_3990" to-id="1076068943733_735326383_3987"/>
+            <connection id="1076068204360_933155866_3388" from-id="1076068164853_1444038652_3351" to-id="1076068204350_661260988_3385"/>
+            <connection id="1076068306467_1274997281_3521" from-id="1076068306467_656666474_3512" to-id="1076068306457_493261261_3509"/>
+            <connection id="1076068887642_1160638341_3955" from-id="1076068718209_2052072543_3801" to-id="1076068887632_1619365197_3951"/>
+            <connection id="1076068734362_522001904_3829" from-id="1076068718199_1376270306_3798" to-id="1076068734362_210285408_3826"/>
+            <connection id="1076068718209_428047041_3811" from-id="1076068718209_2052072543_3801" to-id="1076068718199_1376270306_3798"/>
+            <connection id="1076068799386_949250243_3896" from-id="1076068772016_845754704_3868" to-id="1076068799376_523723092_3892"/>
+            <connection id="1076068348768_389678207_3563" from-id="1076068328098_1436112655_3536" to-id="1076068348768_325478730_3559"/>
+            <connection id="1076068894032_37694601_3970" from-id="1076068718209_2052072543_3801" to-id="1076068894032_583159020_3966"/>
+            <connection id="1076068500225_858498780_3698" from-id="1076068328088_785234677_3533" to-id="1076068500215_1190664098_3695"/>
+            <connection id="1076068718209_606636137_3804" from-id="1076068698200_990360503_3771" to-id="1076068718209_2052072543_3801"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1076068164853_1444038652_3351" x="181" y="79" width="133" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068698200_990360503_3771" x="525" y="544" width="147" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068855967_410627997_3932" x="418" y="845" width="84" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068894032_583159020_3966" x="677" y="749" width="88" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068473297_346647115_3653" x="160" y="568" width="62" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068264657_1950705104_3460" x="480" y="51" width="131" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068277455_1011450913_3476" x="516" y="143" width="115" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068887632_1619365197_3951" x="659" y="632" width="96" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068500205_476401781_3692" x="69" y="660" width="90" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068348768_325478730_3559" x="282" y="429" width="97" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068718199_1376270306_3798" x="534" y="636" width="95" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068734362_1046539946_3823" x="540" y="719" width="86" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068750996_621869975_3848" x="335" y="696" width="216" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068456362_2144326621_3636" x="226" y="495" width="62" height="19" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068389356_1662085861_3594" x="520" y="437" width="70" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068242304_1389290481_3431" x="154" y="288" width="80" height="19" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068632375_1172523710_3727" x="247" y="626" width="68" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068290364_1450368413_3492" x="450" y="218" width="69" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068799376_523723092_3892" x="260" y="800" width="95" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068943733_735326383_3987" x="239" y="847" width="60" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068662519_996524474_3754" x="169" y="660" width="62" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068772016_890130942_3865" x="213" y="756" width="95" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068328088_785234677_3533" x="158" y="422" width="90" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068133979_1885648290_3325" x="337" y="256" width="82" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068306457_493261261_3509" x="341" y="331" width="149" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068360895_706052939_3575" x="402" y="437" width="116" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068438096_1779427334_3611" x="158" y="496" width="51" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068235615_1931333002_3416" x="209" y="216" width="96" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076068204350_157749400_3382" x="100" y="173" width="128" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1076068438096_1650283011_3614" x="158" y="462" width="141" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068718209_2052072543_3801" x="526" y="581" width="110" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068943733_1506901635_3990" x="328" y="846" width="54" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068164853_1941178064_3354" x="337" y="162" width="41" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068306467_656666474_3512" x="339" y="293" width="123" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068698200_325750712_3774" x="522" y="490" width="44" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068734362_210285408_3826" x="526" y="678" width="73" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068473297_980951556_3656" x="171" y="528" width="62" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068204350_661260988_3385" x="162" y="124" width="64" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068772016_845754704_3868" x="337" y="730" width="53" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068242304_2050348263_3434" x="181" y="252" width="89" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068500215_1190664098_3695" x="41" y="549" width="50" height="27" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068632385_518166899_3730" x="291" y="469" width="47" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076068328098_1436112655_3536" x="341" y="372" width="114" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1076068306467_829663580_3515" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068438116_2097460202_3624" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068165013_1994263885_3365" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068734372_1187885053_3836" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068698200_1574496538_3777" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068473307_1038972811_3659" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068855977_803223341_3936" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068772026_697444308_3878" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068164993_2117342323_3358" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+            <connection-appearance id="1076068772016_1749288833_3871" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068328098_127143691_3539" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068698210_734238722_3784" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068632385_1700189389_3739" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068482199_1294988334_3679" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068751006_498775842_3852" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068473307_2051452975_3666" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068662529_883863080_3758" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068500225_729524175_3704" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068943733_440452845_3993" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068360895_236349965_3579" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068264657_1039523287_3464" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068632385_830886830_3733" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068235625_353770336_3420" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068328098_668684364_3546" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068242314_1504853775_3444" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068389356_1210551712_3598" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068277455_320066716_3480" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068204360_2047119845_3395" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068242314_619939252_3437" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068438106_1968688477_3617" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068456362_1149905049_3640" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068290364_1809650055_3496" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068943743_2146945408_4000" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068204360_933155866_3388" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+            <connection-appearance id="1076068306467_1274997281_3521" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068887642_1160638341_3955" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068734362_522001904_3829" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068718209_428047041_3811" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068799386_949250243_3896" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068348768_389678207_3563" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068894032_37694601_3970" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068500225_858498780_3698" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076068718209_606636137_3804" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="tiled" image-top-left="0,0"/>
+                <concept-style font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/isaac/Downloads/Cmap Analysis win/win/examples/cmaps/expert/Goldberg Concept Map.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

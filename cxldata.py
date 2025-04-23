@@ -14,7 +14,7 @@ class ScoredCxl:
     def score_density(self):
         self.density = networkx.density(self.cmap.graph)
     
-    def find_centers(self, barycenter = True, center = True, eigenvector_center = True):
+    def find_centers(self, barycenter = True, center = True, eigenvector_center = True, page_rank = True):
         if not barycenter and not center:
             return None
         self.center = {}
@@ -24,6 +24,8 @@ class ScoredCxl:
             self.center['center'] = networkx.center(self.cmap.graph.to_undirected())
         if eigenvector_center:
             self.center['eigenvector_center'] = networkx.eigenvector_centrality(self.cmap.graph.to_undirected())
+        if page_rank:
+            self.center['page_rank'] = networkx.pagerank(self.cmap.graph)
         if len(self.center) ==1 or (self.center['center'] == self.center['barycenter'] and self.center['eigenvector_center'] == self.center['barycenter']):
             self.center = self.center['center']
     
@@ -44,9 +46,19 @@ class ScoredCxl:
         # return [[networkx.shortest_path_length(self.cmap.graph,i, j) for j in nodes] for i in nodes]
 
     def score(self, res):
-        return self.cmap._list_clusters(res);
+        self.find_centers()
+        return self.cmap._list_clusters(res)
 
+    def show_map_coloring(self, index: str = 'eigenvector_center'):
+        if not self.center:
+            raise Exception("run find_centers()")
+        print(self.center[index])
+        m = max(self.center[index].values())
+        self.cmap.show_map(self.cmap, False, colors=[(float(self.center[index][i])/m, float(self.center[index][i])/m, float(self.center[index][i])/m) for i in self.center[index]])
     
+        
+
+
     def compare(self, other: ScoredCxl):
         pass
         

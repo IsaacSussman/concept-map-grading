@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Klasnej Concept Map.cmap</dc:title>
+        <dcterms:created>2025-04-09T11:35:14-04:00</dcterms:created>
+        <dcterms:modified>2025-04-09T11:35:14-04:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:20MLHTFGP-8CS0DK-1:external-folder:file:////C:/Users/isaac/Downloads/Cmap Analysis win/win/examples/cmaps/expert/Klasnej Concept Map.cmap</dc:source>
+    </res-meta>
+    <map width="1097" height="563">
+        <concept-list>
+            <concept id="1076070202984_1345742527_4749" label="Regulatory&#xa;Requirements"/>
+            <concept id="1076069937602_1833152759_4586" label="Teamwork"/>
+            <concept id="1076070258774_1154202681_4806" label="Innovation"/>
+            <concept id="1076069528023_445299805_4246" label="BME Design"/>
+            <concept id="1076069967495_2002299931_4611" label="Communication&#xa;Skills"/>
+            <concept id="1076069633936_149906313_4320" label="Customer Needs"/>
+            <concept id="1076070335705_2025128353_4841" label="Management&#xa;Skills"/>
+            <concept id="1076069835325_1983699262_4483" label="Process"/>
+            <concept id="1076070055061_1125383795_4659" label="Market Opportunities&#xa;and Constraints"/>
+            <concept id="1076069875613_1748476223_4531" label="Overriding Societal&#xa;Concerns"/>
+            <concept id="1076069919236_1677122764_4559" label="Bioethics"/>
+            <concept id="1076070129698_18357565_4725" label="Return on&#xa;investment"/>
+            <concept id="1076070214921_853265964_4757" label="Regulatory&#xa;Agencies"/>
+            <concept id="1076070292152_525680281_4823" label="Hazard&#xa;Analysis"/>
+            <concept id="1076069728041_884441365_4433" label="Industry&#xa;Needs"/>
+            <concept id="1076069561211_162850097_4272" label="Medical/Clinical&#xa;Problem"/>
+            <concept id="1076070248119_408436838_4791" label="Design Reviews"/>
+            <concept id="1076069802768_1059761180_4459" label="Genesis of&#xa;Design Process"/>
+            <concept id="1076069951011_46750381_4603" label="Interpersonal&#xa;Skills"/>
+            <concept id="1076069653714_1596672925_4346" label="Market Analysis"/>
+            <concept id="1076069712108_1907490438_4407" label="Schedule"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1076069875613_63861257_4534" label="drives"/>
+            <linking-phrase id="1076069728041_2117543066_4436" label="investigate"/>
+            <linking-phrase id="1076070055061_1209492166_4662" label="generates"/>
+            <linking-phrase id="1076069919246_860462732_4562" label="defines"/>
+            <linking-phrase id="1076069937612_31903129_4589" label="requires"/>
+            <linking-phrase id="1076069843527_1073033106_4509" label="includes"/>
+            <linking-phrase id="1076069561221_85643398_4275" label="requires"/>
+            <linking-phrase id="1076069633936_819628082_4323" label="knowledge of"/>
+            <linking-phrase id="1076070233067_1482574682_4769" label="develops"/>
+            <linking-phrase id="1076069701503_76352019_4386" label="includes"/>
+            <linking-phrase id="1076070129698_1811382465_4728" label="calculates"/>
+            <linking-phrase id="1076070095089_2100854035_4705" label="looks into"/>
+            <linking-phrase id="1076069712108_1150637868_4410" label="determines"/>
+            <linking-phrase id="1076069835335_131097416_4486" label="uses"/>
+            <linking-phrase id="1076069802778_975799799_4462" label="uses"/>
+            <linking-phrase id="1076069653714_1718836491_4349" label="investigate"/>
+            <linking-phrase id="1076069985281_1330463472_4622" label="improves"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1076070233077_1258377837_4779" from-id="1076070233067_1482574682_4769" to-id="1076070202984_1345742527_4749"/>
+            <connection id="1076070292152_34129049_4827" from-id="1076069843527_1073033106_4509" to-id="1076070292152_525680281_4823"/>
+            <connection id="1076070055071_1284254796_4665" from-id="1076069633936_149906313_4320" to-id="1076070055061_1209492166_4662"/>
+            <connection id="1076069843537_1056828832_4519" from-id="1076069843527_1073033106_4509" to-id="1076069712108_1907490438_4407"/>
+            <connection id="1076069997418_1634640064_4646" from-id="1076069951011_46750381_4603" to-id="1076069985281_1330463472_4622"/>
+            <connection id="1076069662136_272179398_4372" from-id="1076069653714_1718836491_4349" to-id="1076069633936_149906313_4320"/>
+            <connection id="1076069712118_794328884_4420" from-id="1076069712108_1150637868_4410" to-id="1076069712108_1907490438_4407"/>
+            <connection id="1076069728051_1867197692_4445" from-id="1076069728041_2117543066_4436" to-id="1076069728041_884441365_4433"/>
+            <connection id="1076070233067_1487489920_4772" from-id="1076070214921_853265964_4757" to-id="1076070233067_1482574682_4769"/>
+            <connection id="1076070248129_718685587_4795" from-id="1076069843527_1073033106_4509" to-id="1076070248119_408436838_4791"/>
+            <connection id="1076069835345_1483854269_4496" from-id="1076069835335_131097416_4486" to-id="1076069835325_1983699262_4483"/>
+            <connection id="1076069919256_912341851_4572" from-id="1076069919246_860462732_4562" to-id="1076069919236_1677122764_4559"/>
+            <connection id="1076069701503_380766001_4395" from-id="1076069701503_76352019_4386" to-id="1076069653714_1596672925_4346"/>
+            <connection id="1076070129698_1804195005_4731" from-id="1076069653714_1596672925_4346" to-id="1076070129698_1811382465_4728"/>
+            <connection id="1076070055081_1624904510_4671" from-id="1076070055061_1209492166_4662" to-id="1076070055061_1125383795_4659"/>
+            <connection id="1076069633946_1935877191_4326" from-id="1076069528023_445299805_4246" to-id="1076069633936_819628082_4323"/>
+            <connection id="1076069937612_825434105_4598" from-id="1076069937612_31903129_4589" to-id="1076069937602_1833152759_4586"/>
+            <connection id="1076069843537_1426626740_4512" from-id="1076069835325_1983699262_4483" to-id="1076069843527_1073033106_4509"/>
+            <connection id="1076069802778_910671887_4471" from-id="1076069802778_975799799_4462" to-id="1076069802768_1059761180_4459"/>
+            <connection id="1076069633946_2111818896_4332" from-id="1076069633936_819628082_4323" to-id="1076069633936_149906313_4320"/>
+            <connection id="1076069919246_1033517875_4565" from-id="1076069875613_1748476223_4531" to-id="1076069919246_860462732_4562"/>
+            <connection id="1076069835345_1429865404_4489" from-id="1076069802768_1059761180_4459" to-id="1076069835335_131097416_4486"/>
+            <connection id="1076070095099_826530839_4708" from-id="1076069653714_1596672925_4346" to-id="1076070095089_2100854035_4705"/>
+            <connection id="1076069701503_1505186085_4389" from-id="1076069528023_445299805_4246" to-id="1076069701503_76352019_4386"/>
+            <connection id="1076070129708_735165140_4737" from-id="1076070129698_1811382465_4728" to-id="1076070129698_18357565_4725"/>
+            <connection id="1076069561241_889135156_4279" from-id="1076069528023_445299805_4246" to-id="1076069561221_85643398_4275"/>
+            <connection id="1076069728051_1075513121_4439" from-id="1076069653714_1596672925_4346" to-id="1076069728041_2117543066_4436"/>
+            <connection id="1076069712108_542151956_4413" from-id="1076069653714_1596672925_4346" to-id="1076069712108_1150637868_4410"/>
+            <connection id="1076070335715_359100805_4845" from-id="1076069985281_1330463472_4622" to-id="1076070335705_2025128353_4841"/>
+            <connection id="1076069985301_417900776_4632" from-id="1076069985281_1330463472_4622" to-id="1076069937602_1833152759_4586"/>
+            <connection id="1076069985291_1089674920_4625" from-id="1076069967495_2002299931_4611" to-id="1076069985281_1330463472_4622"/>
+            <connection id="1076069875613_1060762965_4537" from-id="1076069561211_162850097_4272" to-id="1076069875613_63861257_4534"/>
+            <connection id="1076069937612_1475347591_4592" from-id="1076069802768_1059761180_4459" to-id="1076069937612_31903129_4589"/>
+            <connection id="1076069875623_554855598_4544" from-id="1076069875613_63861257_4534" to-id="1076069875613_1748476223_4531"/>
+            <connection id="1076070202984_1039315805_4753" from-id="1076069875613_63861257_4534" to-id="1076070202984_1345742527_4749"/>
+            <connection id="1076069802778_1535837745_4465" from-id="1076069528023_445299805_4246" to-id="1076069802778_975799799_4462"/>
+            <connection id="1076069561241_168287535_4286" from-id="1076069561221_85643398_4275" to-id="1076069561211_162850097_4272"/>
+            <connection id="1076070095099_407922051_4714" from-id="1076070095089_2100854035_4705" to-id="1076070055061_1125383795_4659"/>
+            <connection id="1076069653724_686232242_4359" from-id="1076069653714_1718836491_4349" to-id="1076069653714_1596672925_4346"/>
+            <connection id="1076070258774_2144057187_4810" from-id="1076069843527_1073033106_4509" to-id="1076070258774_1154202681_4806"/>
+            <connection id="1076069653714_481038428_4352" from-id="1076069633936_149906313_4320" to-id="1076069653714_1718836491_4349"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1076070202984_1345742527_4749" x="683" y="557" width="86" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069937602_1833152759_4586" x="355" y="288" width="69" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070258774_1154202681_4806" x="518" y="476" width="69" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069528023_445299805_4246" x="717" y="300" width="82" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069967495_2002299931_4611" x="56" y="221" width="98" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069633936_149906313_4320" x="831" y="170" width="101" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070335705_2025128353_4841" x="57" y="333" width="81" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069835325_1983699262_4483" x="488" y="313" width="51" height="17" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070055061_1125383795_4659" x="1037" y="147" width="129" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069875613_1748476223_4531" x="455" y="66" width="118" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069919236_1677122764_4559" x="270" y="157" width="61" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070129698_18357565_4725" x="1031" y="457" width="69" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070214921_853265964_4757" x="826" y="456" width="70" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070292152_525680281_4823" x="427" y="515" width="57" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069728041_884441365_4433" x="890" y="365" width="55" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069561211_162850097_4272" x="711" y="32" width="102" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076070248119_408436838_4791" x="592" y="422" width="99" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069802768_1059761180_4459" x="507" y="177" width="94" height="37" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069951011_46750381_4603" x="170" y="187" width="82" height="34" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069653714_1596672925_4346" x="952" y="275" width="101" height="21" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="1076069712108_1907490438_4407" x="761" y="372" width="59" height="18" font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1076069875613_63861257_4534" x="580" y="48" width="31" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069728041_2117543066_4436" x="921" y="320" width="54" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076070055061_1209492166_4662" x="924" y="158" width="47" height="12" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069919246_860462732_4562" x="362" y="111" width="37" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069937612_31903129_4589" x="431" y="232" width="41" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069843527_1073033106_4509" x="490" y="354" width="42" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069561221_85643398_4275" x="713" y="153" width="41" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069633936_819628082_4323" x="776" y="233" width="69" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076070233067_1482574682_4769" x="782" y="513" width="45" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069701503_76352019_4386" x="832" y="269" width="42" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076070129698_1811382465_4728" x="991" y="366" width="49" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076070095089_2100854035_4705" x="994" y="211" width="50" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069712108_1150637868_4410" x="806" y="314" width="55" height="11" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069835335_131097416_4486" x="497" y="245" width="23" height="8" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069802778_975799799_4462" x="612" y="238" width="23" height="8" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069653714_1718836491_4349" x="894" y="220" width="54" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="1076069985281_1330463472_4622" x="72" y="280" width="47" height="13" font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1076070233077_1258377837_4779" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070292152_34129049_4827" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070055071_1284254796_4665" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069843537_1056828832_4519" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069997418_1634640064_4646" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069662136_272179398_4372" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069712118_794328884_4420" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069728051_1867197692_4445" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070233067_1487489920_4772" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070248129_718685587_4795" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069835345_1483854269_4496" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069919256_912341851_4572" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069701503_380766001_4395" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070129698_1804195005_4731" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070055081_1624904510_4671" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069633946_1935877191_4326" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+            <connection-appearance id="1076069937612_825434105_4598" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069843537_1426626740_4512" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069802778_910671887_4471" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069633946_2111818896_4332" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069919246_1033517875_4565" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069835345_1429865404_4489" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070095099_826530839_4708" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069701503_1505186085_4389" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070129708_735165140_4737" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069561241_889135156_4279" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+            <connection-appearance id="1076069728051_1075513121_4439" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069712108_542151956_4413" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070335715_359100805_4845" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069985301_417900776_4632" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069985291_1089674920_4625" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069875613_1060762965_4537" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069937612_1475347591_4592" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069875623_554855598_4544" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076070202984_1039315805_4753" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069802778_1535837745_4465" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069561241_168287535_4286" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="yes"/>
+            <connection-appearance id="1076070095099_407922051_4714" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069653724_686232242_4359" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+            <connection-appearance id="1076070258774_2144057187_4810" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+            <connection-appearance id="1076069653714_481038428_4352" from-pos="center" to-pos="center" color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="no"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="tiled" image-top-left="0,0"/>
+                <concept-style font-name="Times New Roman" font-size="14" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Times New Roman" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/isaac/Downloads/Cmap Analysis win/win/examples/cmaps/expert/Klasnej Concept Map.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>
